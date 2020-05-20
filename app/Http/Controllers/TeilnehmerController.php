@@ -15,7 +15,10 @@ class TeilnehmerController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('welcome', [
+            'var' => [
+                'page' => 'start'
+            ]]);
     }
 
     /**
@@ -25,10 +28,15 @@ class TeilnehmerController extends Controller
      */
     public function check(Request $request)
     {
-        $count = Postleitzahl::where('plz', $request->plz)->count();
-        $plz = Postleitzahl::where('plz', $request->plz)->first();
-
-        dd($plz);
+        if (Postleitzahl::where('plz', $request->plz)->exists()) {
+            return view('welcome', [
+                'var' => [
+                    'page' => 'formular',
+                    'Postleitzahl' => Postleitzahl::where('plz', $request->plz)->first()
+                ]]);
+        } else {
+            return 'uafanculo';
+        };
     }
 
     /**
