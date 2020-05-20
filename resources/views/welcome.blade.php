@@ -17,6 +17,7 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
+				@if ($var['page'] == 'start')
 				<!-- Intro -->
 					<div id="intro">
                         <img style="max-width:200%; max-height:100%;" src="/images/logo.png" alt="">
@@ -24,11 +25,13 @@
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
 					</div>
+				@endif
 
 				<!-- Header -->
 					<header id="header">
 						<a href="#nav" class="logo">Gastro Neustart</a>
 					</header>
+					
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -48,11 +51,11 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Form -->
 						@if ($var['page'] == 'start')
+						<!-- Form -->
 							<h2>Postleitzahl</h2>
 							
-							<form method="POST" action="/">
+							<form method="post" action="/">
 								@csrf
 								<div class="row gtr-uniform">
 									<div class="col-12 col-12-xsmall">
@@ -70,27 +73,34 @@
 
 						@if ($var['page'] == 'formular')
 
-							<!-- Form -->
+							<!-- Gewinnspiel -->
 							<h2>Gratulation! Sie können mitmachen... oder so ähnlich</h2>
 
 							<form method="post" action="#">
 								<div class="row gtr-uniform">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<!-- Break -->
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
+
+									<!-- Ansprechpartner -->
+									<div class="col-2 col-12-xsmall">
+										<select name="anrede" id="anrede">
+											<option value="" selected disabled hidden>Anrede</option>
+											<option value="1">keine Angabe</option>
+											<option value="2">Frau</option>
+											<option value="3">Herr</option>
 										</select>
 									</div>
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="vorname" id="vorname" value="" placeholder="Vorname" />
+									</div>
+									<div class="col-5 col-12-xsmall">
+										<input type="text" name="nachname" id="nachname" value="" placeholder="Nachname" />
+									</div>
+
+									<!-- Firma -->
+									<div class="col-12 col-12-xsmall">
+										<input type="text" name="fiirma" id="firma" value="" placeholder="Firma" />
+									</div>
+
+									
 									<!-- Break -->
 									<div class="col-4 col-12-small">
 										<input type="radio" id="demo-priority-low" name="demo-priority" checked>

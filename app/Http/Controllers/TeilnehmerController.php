@@ -26,8 +26,9 @@ class TeilnehmerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function check(Request $request)
+    public function check($plz)
     {
+        return var_dump($plz);
         if (Postleitzahl::where('plz', $request->plz)->exists()) {
             return view('welcome', [
                 'var' => [
