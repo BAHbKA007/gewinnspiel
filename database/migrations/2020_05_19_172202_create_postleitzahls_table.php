@@ -15,6 +15,7 @@ class CreatePostleitzahlsTable extends Migration
     {
         Schema::create('postleitzahls', function (Blueprint $table) {
             $table->mediumInteger('plz')->unsigned()->primary();
+            $table->string('ort', 100);
         });
     }
 
