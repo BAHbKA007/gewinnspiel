@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Teilnehmer;
+use App\Postleitzahl;
 use Illuminate\Http\Request;
 
 class TeilnehmerController extends Controller
@@ -22,9 +23,12 @@ class TeilnehmerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function check(Request $request)
     {
-        //
+        $count = Postleitzahl::where('plz', $request->plz)->count();
+        $plz = Postleitzahl::where('plz', $request->plz)->first();
+
+        dd($plz);
     }
 
     /**
