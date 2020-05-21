@@ -14,7 +14,7 @@
 
 			<div class="row gtr-uniform">
 				<div class="col-12 col-12-xsmall">
-					<input type="number" name="plz" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" />
+					<input type="number" name="plz" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
 				</div>
 				<!-- Break -->
 				<div class="col-12">
