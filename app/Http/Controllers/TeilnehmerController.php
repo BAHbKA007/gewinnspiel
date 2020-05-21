@@ -17,7 +17,8 @@ class TeilnehmerController extends Controller
     {
         return view('welcome', [
             'var' => [
-                'page' => 'start'
+                'page' => 'start',
+                'active' => 'Gewinnspiel'
             ]]);
     }
 
@@ -26,17 +27,23 @@ class TeilnehmerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function check($plz)
+    public function check(Request $request)
     {
-        return var_dump($plz);
         if (Postleitzahl::where('plz', $request->plz)->exists()) {
             return view('welcome', [
                 'var' => [
                     'page' => 'formular',
-                    'Postleitzahl' => Postleitzahl::where('plz', $request->plz)->first()
+                    'Postleitzahl' => Postleitzahl::where('plz', $request->plz)->first(),
+                    'active' => 'Gewinnspiel'
                 ]]);
         } else {
-            return 'uafanculo';
+            return view('welcome', [
+                'var' => [
+                    'page' => 'start',
+                    'Postleitzahl' => $request->plz,
+                    'not_passed' => 1,
+                    'active' => 'Gewinnspiel'
+                ]]);
         };
     }
 
@@ -48,7 +55,40 @@ class TeilnehmerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if (Teilnehmer::where('ustidnr', $request->ustid)->exists()) {
+            return view('welcome', [
+                'var' => [
+                    'page' => 'formular',
+                    'Postleitzahl' => Postleitzahl::where('plz', $request->plz)->first(),
+                    'request' => $request,
+                    'double_ustid' => 1,
+                    'active' => 'Gewinnspiel'
+                ]]);
+        } else {
+            $teilnehmer = new Teilnehmer;
+            $teilnehmer->anrede = $request->anrede;
+            $teilnehmer->vorname = $request->vorname;
+            $teilnehmer->nachname = $request->nachname;
+            $teilnehmer->firma = $request->fiirma;
+            $teilnehmer->strasse = $request->strasse;
+            $teilnehmer->nr = $request->hausnummer;
+            $teilnehmer->plz = $request->plz;
+            $teilnehmer->ort = $request->ort;
+            $teilnehmer->email = $request->email;
+            $teilnehmer->telefon = $request->tel;
+            $teilnehmer->ustidnr  = $request->ustid;
+            $teilnehmer->zugestimmt  = (isset($request->einverstanden)) ? 'ja' : 'nein';
+    
+            $teilnehmer->save();
+
+            return view('teilnahme_erfolgreich', [
+                'var' => [
+                    'page' => 'start',
+                    'teilnehmer' => $teilnehmer,
+                    'not_passed' => 1,
+                    'active' => 'Gewinnspiel'
+                ]]);
+        }
     }
 
     /**
@@ -95,4 +135,5 @@ class TeilnehmerController extends Controller
     {
         //
     }
+
 }

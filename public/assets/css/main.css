@@ -3475,7 +3475,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 1rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 50vh;
 			}
 
 				#intro h1 {
@@ -3937,7 +3937,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > * {
-				padding: 2rem 2rem 0.1rem 2rem ;
+				padding: 2rem 2rem 2rem 2rem ;
 			}
 
 		}

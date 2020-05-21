@@ -1,0 +1,2 @@
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Admin', 'admin@gastro-neustart.de', NULL, '$2y$10$IvS0n0hZxSJZIRbrwoBste2WEwrZlBO1hYZXkDJG33h5IGKQmM7yq', NULL, '2019-05-19 15:11:36', '2020-05-21 14:04:56');

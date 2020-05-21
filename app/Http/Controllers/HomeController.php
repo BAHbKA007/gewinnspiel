@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Teilnehmer;
+use App\Exports\TeilnehmerExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class HomeController extends Controller
 {
@@ -23,6 +26,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $teilnehmer = Teilnehmer::all();
+        return view('home', [
+            'var' => [
+                'teilnehmer' => $teilnehmer
+            ]
+        ]);
+        
+    }
+
+    public function export() 
+    {
+        return Excel::download(new TeilnehmerExport, 'Gewinnspiel Teilnehmer.xlsx');
     }
 }

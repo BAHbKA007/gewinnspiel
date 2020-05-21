@@ -15,8 +15,8 @@ class CreateTeilnehmersTable extends Migration
     {
         Schema::create('teilnehmers', function (Blueprint $table) {
             $table->id();
-            $table->tinyInteger('anrede');
-            $table->string('vornahme', 100);
+            $table->string('anrede', 4)->nullable();
+            $table->string('vorname', 100);
             $table->string('nachname', 100);
             $table->string('firma', 100);
             $table->string('strasse', 100);
@@ -24,7 +24,9 @@ class CreateTeilnehmersTable extends Migration
             $table->string('plz', 100);
             $table->string('ort', 100);
             $table->string('email', 100);
+            $table->string('telefon', 100);
             $table->string('ustidnr', 100)->unique();
+            $table->string('zugestimmt', 4);
             $table->timestamps();
         });
     }

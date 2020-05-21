@@ -17,9 +17,37 @@ use Illuminate\Support\Facades\Route;
 //     return Redirect::to('http://werner-ebert.de');
 // });
 
+Route::get('/Teilnahmebedingungen', function () {
+    return view('teilnahmebedingungen', [
+        'var' => [
+            'not_passed' => 1,
+            'active' => 'Teilnahmebedingungen'
+        ]]);
+});
+Route::get('/Impressum', function () {
+    return view('impressum', [
+        'var' => [
+            'not_passed' => 1,
+            'active' => 'Impressum'
+        ]]);
+});
+Route::get('/Datenschutz', function () {
+    return view('impressum', [
+        'var' => [
+            'datenschutz' => 1,
+            'active' => 'Impressum'
+        ]]);
+});
+
 Route::get('/', "TeilnehmerController@index");
 Route::post('/', "TeilnehmerController@check");
+Route::get('/teilnahme', "TeilnehmerController@index");
+Route::post('/teilnahme', "TeilnehmerController@store");
 
 Auth::routes(['register' => false]);
 
-#Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/export', "HomeController@export");
+
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
