@@ -5,9 +5,11 @@
 <div>
     {{ $teilnehmer->firma }} wurde unter <a href="gastro-neustart.de">gastro-neustart.de</a> als Gewinnspielteilnehmer eingetragen.
 </div>
+<br>
 <div>
-    Bitte bestätige deine E-Mail über den folgenden <a href="{{url()->current()}}/{{$teilnehmer->hash}}">Link</a>
+    Um am an der Verlosung teilzunehmen, musst du Deine E-Mail Adresse bestätigen: <a href="{{url()->current()}}/{{$teilnehmer->hash}}">Link</a>
 </div>
+<br>
 <div>
-    hash: {{ $teilnehmer->hash }}
+    Alternativ folgende URL im Webbrowser aufrufen: {{url()->current()}}/{{$teilnehmer->hash}}
 </div>

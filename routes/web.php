@@ -27,7 +27,7 @@ Route::get('/test', function ()
 
 Route::get('/mail', function ()
 {
-    Mail::to("noreply@gastro-neustart.de")->send(new Test());
+    Mail::to("j.schneider@gemuesering.de")->send(new Test());
 });
 
 Route::get('/Teilnahmebedingungen', function () {

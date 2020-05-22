@@ -5,9 +5,9 @@
     <section class="post">
 
         @if (isset($var['teilnehmer']))
-            <header class="major">
+            <h1>
                 E-Mail erfolgreich bestätigt
-            </header>
+            </h1>
 
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
             <p>
