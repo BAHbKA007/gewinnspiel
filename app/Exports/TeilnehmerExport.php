@@ -29,6 +29,8 @@ class TeilnehmerExport implements FromCollection, WithHeadings, ShouldAutoSize
             'Telefon',
             'UStID-Nr.:',
             'zugestimmt',
+            'hash',
+            'E-Mail Bestätigt',
             'erstellt',
             'geändert'
         ];
