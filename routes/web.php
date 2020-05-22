@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Test;
+use Illuminate\Support\Facades\Hash;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,10 @@ use App\Mail\Test;
 //     return Redirect::to('http://werner-ebert.de');
 // });
 
+Route::get('/test', function ()
+{
+    return Hash::make('asdasd');
+});
 
 Route::get('/mail', function ()
 {
@@ -51,6 +56,7 @@ Route::get('/', "TeilnehmerController@index");
 Route::post('/', "TeilnehmerController@check");
 Route::get('/teilnahme', "TeilnehmerController@index");
 Route::post('/teilnahme', "TeilnehmerController@store");
+Route::get('/teilnahme/{hash}', "TeilnehmerController@check_mail");
 
 Auth::routes(['register' => false]);
 

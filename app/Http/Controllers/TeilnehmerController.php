@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\MailBestaetigung;
 use App\Teilnehmer;
 use App\Postleitzahl;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class TeilnehmerController extends Controller
 {
@@ -78,8 +81,15 @@ class TeilnehmerController extends Controller
             $teilnehmer->telefon = $request->tel;
             $teilnehmer->ustidnr  = $request->ustid;
             $teilnehmer->zugestimmt  = (isset($request->einverstanden)) ? 'ja' : 'nein';
-    
+            
             $teilnehmer->save();
+            $id = $teilnehmer->id;
+
+            $teilnehmer = Teilnehmer::find($id);
+            $teilnehmer->hash  = md5($id);
+            $teilnehmer->save();
+
+            Mail::to($teilnehmer->email)->send(new MailBestaetigung($teilnehmer));
 
             return view('teilnahme_erfolgreich', [
                 'var' => [
@@ -89,6 +99,27 @@ class TeilnehmerController extends Controller
                     'active' => 'Gewinnspiel'
                 ]]);
         }
+    }
+
+    public function check_mail($hash)
+    {
+        
+        if (Teilnehmer::firstWhere('hash', $hash)->exists()) {
+            $teilnehmer = Teilnehmer::firstWhere('hash', $hash);
+            $teilnehmer->mail_confirmed = 'ja';
+            return view('mail.after_confirm', [
+                'var' => [
+                    'teilnehmer' => $teilnehmer = Teilnehmer::firstWhere('hash', $hash),
+                    'active' => 'Gewinnspiel',
+                    'not_passed' => 1
+                ]]);
+        } else {
+            return view('mail.after_confirm', [
+                'var' => [
+                    'active' => 'Gewinnspiel',
+                    'not_passed' => 1
+                ]]);
+        };
     }
 
     /**

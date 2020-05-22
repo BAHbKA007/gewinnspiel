@@ -27,6 +27,8 @@ class CreateTeilnehmersTable extends Migration
             $table->string('telefon', 100);
             $table->string('ustidnr', 100)->unique();
             $table->string('zugestimmt', 4);
+            $table->string('hash', 100)->nullable();
+            $table->string('mail_confirmed', 4)->default('nein');
             $table->timestamps();
         });
     }
