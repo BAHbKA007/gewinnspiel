@@ -3,30 +3,15 @@
 <div id="main">
     <!-- Post -->
     <section class="post">
-        <header class="major">
-            <h1>viel Erfolg<br />
-                {{$var['teilnehmer']->firma}}
-            </h1>
-        </header>
+        {{-- <header class="major">
+            <h1>viel Erfolg<br /></h1>
+        </header> --}}
 
         <!-- Text stuff -->
-            <h2>
-                @if (isset($var['teilnehmer']->anrede))
-                    @if ($var['teilnehmer']->anrede == 'Herr')
-                        lieber
-                    @endif
-                    @if ($var['teilnehmer']->anrede == 'Frau')
-                        liebe
-                    @endif
-                @else
-                    
-                @endif
-                {{$var['teilnehmer']->vorname}},</h2>
+            <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
             <p>
-                <b>{{$var['teilnehmer']->firma}}</b> wurde als Teilnehmer gespeichert. Sollten Sie als Gewinner ausgewählt werden, benachrichtigen wir Sie 
-                per Mail oder telefonisch.
-
-                Bis dahin, alles Gute!
+                Wenn Du gewinnst benachrichtigen wir Dich über Deine angegebene E-Mail-Adresse. Bitte prüfe ggf. Deinen Spam-Ordner. Wir bitten Dich den Empfang innerhalb von xx Tagen, spätestens bis xx.xx.2020 zu bestätigen, damit wir sicher gehen können, dass die Gewinner ihr Nachricht auch erhalten haben.
+                Mehr über uns: <a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH</a>
             </p>
 
     </section>

@@ -70,6 +70,10 @@
                         {{-- <ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
+                        <h2 style="color: #f15a23">
+                            100.000,- EURO ZUM NEUSTART
+                            DER STUTTGARTER GASTRONOMIE
+                        </h2>
 					</div>
 
 
@@ -92,14 +96,19 @@
                             @endif
                             ><a href="/Teilnahmebedingungen">Teilnahmebedingungen</a></li>
                             <li 
-                                @if ($var['active'] == "Datenschutz" || $var['active'] == "Impressum")
+                                @if ($var['active'] == "Impressum")
                                     class="active"
                                 @endif
                             ><a href="/Impressum">Impressum</a></li>
+                            <li 
+                            @if ($var['active'] == "Datenschutz" )
+                                class="active"
+                            @endif
+                            ><a href="/Datenschutz">Datenschutz</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.werner-ebert.de/" class="icon brands fa-dribbble"><span class="label">Web</span></a></li>
+							<li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 						</ul>
 					</nav>
 

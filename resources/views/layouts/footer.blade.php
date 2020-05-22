@@ -49,7 +49,7 @@
 
 				<!-- Copyright -->
                 <div id="copyright">
-                    <ul><li>&copy; <a href="https://www.gemuesering.de">Gemüsering Stuttgart</a></li><li><a href="https://www.werner-ebert.de">Werner Ebert GmbH</a></li></ul>
+                    <ul><li>&copy;<a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH</a></li></ul>
                 </div>
 
         </div>
@@ -74,12 +74,6 @@
                 @if(isset($var['page']) && $var['page'] == 'formular')
                     $('html, body').animate({
                         scrollTop: $('#main').offset().top
-                    }, 'slow');
-                @endif
-
-                @if(isset($var['datenschutz']))
-                    $('html, body').animate({
-                        scrollTop: $('#Datenschutzerklärung').offset().top
                     }, 'slow');
                 @endif
             });

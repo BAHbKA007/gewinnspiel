@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Test;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,12 @@ use Illuminate\Support\Facades\Route;
 //     return Redirect::to('http://werner-ebert.de');
 // });
 
+
+Route::get('/mail', function ()
+{
+    Mail::to("noreply@gastro-neustart.de")->send(new Test());
+});
+
 Route::get('/Teilnahmebedingungen', function () {
     return view('teilnahmebedingungen', [
         'var' => [
@@ -32,10 +40,10 @@ Route::get('/Impressum', function () {
         ]]);
 });
 Route::get('/Datenschutz', function () {
-    return view('impressum', [
+    return view('datenschutz', [
         'var' => [
-            'datenschutz' => 1,
-            'active' => 'Impressum'
+            'not_passed' => 1,
+            'active' => 'Datenschutz'
         ]]);
 });
 

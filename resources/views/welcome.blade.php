@@ -4,13 +4,22 @@
 
 	@if ($var['page'] == 'start')
 	<!-- Form -->
-		<h2>Postleitzahl</h2>
+	<div class="box">
+			@if(isset($var['not_passed']))
+				<h2>Wir wollen die Region stärken.
+					Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
+					Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
+				</h2>	
+			@else
+		
+			<h2>Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart.
+				Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst.</h2>
+		
+			@endif
+		</div>
 		<form method="post" action="/">
 			@csrf
 
-			@isset($var['not_passed'])
-			<span style="color: red;">Leider kann die Postleitzahl {{$var['Postleitzahl']}} bei dem Gewinnspiel nicht mitmachen :/ </span>	
-			@endisset
 
 			<div class="row gtr-uniform">
 				<div class="col-12 col-12-xsmall">
@@ -29,7 +38,15 @@
 	@if ($var['page'] == 'formular')
 
 		<!-- Gewinnspiel -->
-		<h2>Gratulation! Sie können mitmachen... oder so ähnlich</h2>
+		<p>Wir schätzen Sie als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Ihre Orte zum begegnen, genießen und verweilen haben wir sehr vermisst. Schön das Sie wieder zurück sind. Beim Neustart möchten wir Sie gerne unterstützen.
+			Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR (gültig bis 31.12.2020) aus unserem Sortiment. Hier finden Sie eine reichhaltige Auswahl an Gemüse, Obst und Spezialitäten, täglich frisch in Top Qualität.
+		   
+		   Teilnahmeschluss ist der 6. Juni 2020.
+		   
+		   Teilnahme nur über diese Webseite (gastro-neustart.de) möglich 
+		   
+		   Die Gewinner werden per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt.
+		   </p>
 
 		<form method="post" action="/teilnahme">
 			@csrf
