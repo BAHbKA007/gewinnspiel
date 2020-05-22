@@ -78,9 +78,9 @@
 
 
 				<!-- Header -->
-					<header id="header">
+					{{-- <header id="header">
 						<a href="#nav" class="logo">Gastro Neustart</a>
-					</header>
+					</header> --}}
                     
 				<!-- Nav -->
 					<nav id="nav">
