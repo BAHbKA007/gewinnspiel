@@ -6,7 +6,7 @@
 
         @if (isset($var['teilnehmer']))
             <h1>
-                E-Mail erfolgreich bestätigt
+                E-Mail bestätigt
             </h1>
 
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
