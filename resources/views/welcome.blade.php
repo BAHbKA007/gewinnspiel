@@ -5,34 +5,36 @@
 	@if ($var['page'] == 'start')
 	<!-- Form -->
 	<div class="box">
-			@if(isset($var['not_passed']))
-				<h2>Wir wollen die Region stärken.
-					Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
-					Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
-				</h2>	
-			@else
-		
-			<h2>Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart.
-				Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst.</h2>
-		
-			@endif
-		</div>
-		<form method="post" action="/">
-			@csrf
+		@if(isset($var['not_passed']))
+			<h2>Wir wollen die Region stärken.
+				Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
+				Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
+			</h2>	
+		@else
+	
+		<h2>Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart.
+			Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst.</h2>
+	
+		@endif
+	</div>
+		@if (!isset($var['not_passed']))
+			<form method="post" action="/">
+				@csrf
 
 
-			<div class="row gtr-uniform">
-				<div class="col-12 col-12-xsmall">
-					<input type="number" name="plz" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
+				<div class="row gtr-uniform">
+					<div class="col-12 col-12-xsmall">
+						<input type="number" name="plz" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
+					</div>
+					<!-- Break -->
+					<div class="col-12">
+						<ul class="actions">
+							<li><input type="submit" value="prüfen" class="primary" /></li>
+						</ul>
+					</div>
 				</div>
-				<!-- Break -->
-				<div class="col-12">
-					<ul class="actions">
-						<li><input type="submit" value="prüfen" class="primary" /></li>
-					</ul>
-				</div>
-			</div>
-		</form>
+			</form>
+		@endif
 	@endif
 
 	@if ($var['page'] == 'formular')
