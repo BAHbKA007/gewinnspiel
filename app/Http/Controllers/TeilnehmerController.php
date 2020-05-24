@@ -8,6 +8,7 @@ use App\Teilnehmer;
 use App\Postleitzahl;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Session;
 
 class TeilnehmerController extends Controller
 {
@@ -18,11 +19,13 @@ class TeilnehmerController extends Controller
      */
     public function index()
     {
+
         return view('welcome', [
             'var' => [
                 'page' => 'start',
                 'active' => 'Gewinnspiel'
             ]]);
+
     }
 
     /**
@@ -30,20 +33,21 @@ class TeilnehmerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function check(Request $request)
+    public function check()
     {
-        if (Postleitzahl::where('plz', $request->plz)->exists()) {
+        $plz = $_GET['Postleitzahl'];
+        if (Postleitzahl::where('plz', $plz)->exists()) {
             return view('welcome', [
                 'var' => [
                     'page' => 'formular',
-                    'Postleitzahl' => Postleitzahl::where('plz', $request->plz)->first(),
+                    'Postleitzahl' => Postleitzahl::where('plz', $plz)->first(),
                     'active' => 'Gewinnspiel'
                 ]]);
         } else {
             return view('welcome', [
                 'var' => [
                     'page' => 'start',
-                    'Postleitzahl' => $request->plz,
+                    'Postleitzahl' => $plz,
                     'not_passed' => 1,
                     'active' => 'Gewinnspiel'
                 ]]);
@@ -121,6 +125,12 @@ class TeilnehmerController extends Controller
                     'not_passed' => 1
                 ]]);
         };
+    }
+
+    public function cookie()
+    {
+        Session::put('CookieAccepted', true);
+        return session()->get('CookieAccepted');
     }
 
     /**

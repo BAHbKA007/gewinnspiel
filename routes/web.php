@@ -53,7 +53,7 @@ Route::get('/Datenschutz', function () {
 });
 
 Route::get('/', "TeilnehmerController@index");
-Route::post('/', "TeilnehmerController@check");
+Route::get('/check', "TeilnehmerController@check");
 Route::get('/teilnahme', "TeilnehmerController@index");
 Route::post('/teilnahme', "TeilnehmerController@store");
 Route::get('/teilnahme/{hash}', "TeilnehmerController@check_mail");
@@ -65,3 +65,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/export', "HomeController@export");
 
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
+Route::post('/akzeptieren', "TeilnehmerController@cookie");

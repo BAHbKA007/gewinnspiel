@@ -9,7 +9,10 @@
         <title>{{config('app.name')}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/main.css?v=1" />
+
+        <!-- Styles -->
+        {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
         <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
         
         <meta name="application-name" content="Gastro Neustart">
@@ -56,7 +59,7 @@
         <link href="/favicons/apple-touch-startup-image-1496x2048.png?v=200521061320" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image">
         <link href="/favicons/apple-touch-startup-image-1536x2008.png?v=200521061320" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image">
         <link rel="manifest" href="/favicons/manifest.json?v=200521061320" />
-
+        
 	</head>
 	<body class="is-preload">
 
@@ -70,10 +73,10 @@
                         {{-- <ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
-                        <h2 style="color: #f15a23">
+                        <h1 style="color: #f15a23">
                             100.000,- EURO ZUM NEUSTART
                             DER STUTTGARTER GASTRONOMIE
-                        </h2>
+                        </h1>
 					</div>
 
 

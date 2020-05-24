@@ -151,7 +151,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: normal;
 	}
 
 	a {
@@ -3391,8 +3391,9 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 2rem;
 			line-height: 1;
+			margin-bottom: 0;
 		}
 
 		#intro p {
@@ -3784,7 +3785,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 6rem 8rem 6rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -4694,3 +4695,42 @@ input, select, textarea {
 		}
 
 	}
+
+/* POPUP */
+.cookie {
+	position: fixed;
+	/* left: 0; */
+	bottom: 0;
+	width: 100%;
+	background-color: #5b2d91;
+	opacity: 0.99;
+	text-align: center;
+	z-index: 200;
+	height: 14vh;
+}
+
+.cookie_box {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	text-align: left;
+	margin: 0 10vw 0 10vw;
+}
+
+.left, .right > span {
+	color: white;
+}
+
+.left {
+	text-align: left;
+	margin: 0 0 0 10vw;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.cookie_box > .right {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

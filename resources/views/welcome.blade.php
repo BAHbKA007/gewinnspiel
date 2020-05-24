@@ -1,7 +1,7 @@
 @include('layouts/header')
-<!-- Main -->
-<div id="main">
 
+<!-- Main -->
+<div id="main" class="cover blur-in">
 	@if ($var['page'] == 'start')
 	<!-- Form -->
 	<div class="box">
@@ -18,13 +18,10 @@
 		@endif
 	</div>
 		@if (!isset($var['not_passed']))
-			<form method="post" action="/">
-				@csrf
-
-
+			<form method="get" action="/check">
 				<div class="row gtr-uniform">
 					<div class="col-12 col-12-xsmall">
-						<input type="number" name="plz" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
+						<input type="number" name="Postleitzahl" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
 					</div>
 					<!-- Break -->
 					<div class="col-12">
@@ -123,4 +120,7 @@
 	@endif
 	
 </div>
+
+
+
 @include('layouts/footer')

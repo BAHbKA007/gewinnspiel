@@ -50,9 +50,24 @@
 				<!-- Copyright -->
                 <div id="copyright">
                     <ul><li>&copy;<a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH</a></li></ul>
-                </div>
+				</div>
+				
+			</div>
 
-        </div>
+			@if ( Session::get('CookieAccepted') != 1)
+	
+				<div id="cookie_footer" class="cookie">
+					<div class="cookie_box">
+						<div class="right">
+							<a id="cookie" href="#" class="right button small primary">akzeptieren</a>
+						</div>
+					</div>
+					<div class="left">
+						Diese Website verarbeitet Informationen über Ihren Besuch unter Einsatz von Cookies, um die Leistung der Website zu verbessern.
+					</div>
+				</div>
+				
+			@endif
 
     <!-- Scripts -->
         <script src="/assets/js/jquery.min.js"></script>
@@ -63,6 +78,21 @@
         <script src="/assets/js/util.js"></script>
         <script src="/assets/js/main.js"></script>
         <script>
+			$("#cookie").on('click', function () {
+				var that = this;
+				$.ajax({
+					type: "POST",
+					url:'/akzeptieren',
+					data: {
+						"_token": "{{ csrf_token() }}"
+					}
+				});
+
+				console.log('clicked');
+
+				$('#cookie_footer').fadeOut();
+			});
+
             $(document).ready(function () {
                 
                 @isset($var['not_passed'])
@@ -75,7 +105,9 @@
                     $('html, body').animate({
                         scrollTop: $('#main').offset().top
                     }, 'slow');
-                @endif
+				@endif
+				
+
             });
         </script>
 </body>
