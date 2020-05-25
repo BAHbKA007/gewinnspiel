@@ -4,7 +4,7 @@
 <div id="main" class="cover blur-in">
 	@if ($var['page'] == 'start')
 	<!-- Form -->
-	<div class="box">
+	<div id="jump-action"  class="box">
 		@if(isset($var['not_passed']))
 			<h2>Wir wollen die Region stärken.
 				Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
@@ -70,7 +70,7 @@
 
 		<form method="post" action="/teilnahme">
 			@csrf
-			<div class="row gtr-uniform">
+			<div id="jump-action" class="row gtr-uniform">
 
 				<!-- Ansprechpartner -->
 				<div class="col-2 col-12-xsmall">

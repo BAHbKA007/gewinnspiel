@@ -2,7 +2,7 @@
 <!-- Main -->
 <div id="main">
     <!-- Post -->
-    <section class="post">
+    <section id="jump-action" class="post">
         <header class="major">
             <h1>Teilnahme- <br>bedingungen</h1>
         </header>

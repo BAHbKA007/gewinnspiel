@@ -53,6 +53,13 @@ Route::get('/Datenschutz', function () {
 });
 
 Route::get('/', "TeilnehmerController@index");
+Route::get('/Wir', function ()
+{
+    return view('ueberuns', [
+        'var' => [
+            'active' => 'UeberUns'
+        ]]);
+});
 Route::get('/check', "TeilnehmerController@check");
 Route::get('/teilnahme', "TeilnehmerController@index");
 Route::post('/teilnahme', "TeilnehmerController@store");

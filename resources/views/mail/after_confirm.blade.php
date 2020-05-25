@@ -2,7 +2,7 @@
 <!-- Main -->
 <div id="main">
     <!-- Post -->
-    <section class="post">
+    <section id="jump-action"  class="post">
 
         @if (isset($var['teilnehmer']))
             <h1>

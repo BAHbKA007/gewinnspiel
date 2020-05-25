@@ -71,12 +71,15 @@
 					<div id="intro">
                         <img style="max-width:120%; max-height:100%;" src="/images/logo.png" alt="">
                         {{-- <ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
                         <h1 style="color: #f15a23">
                             100.000,- EURO ZUM NEUSTART
                             DER STUTTGARTER GASTRONOMIE
                         </h1>
+                        <ul class="actions">
+                            <li><a href="#jump-action" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                        </ul>
 					</div>
 
 
@@ -112,7 +115,7 @@
                             @if ($var['active'] == "UeberUns" )
                                 class="active"
                             @endif
-                            ><a href="/UeberUns">über uns</a></li>						</ul>
+                            ><a href="/Wir">über uns</a></li>						</ul>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
