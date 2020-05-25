@@ -64,7 +64,7 @@
 					</div>
 					<div class="left">
 						Diese Website verarbeitet Informationen über Ihren Besuch unter Einsatz von Cookies, um die Leistung der Website zu verbessern. Genauere Informationen entnehmen Sie bitte
-						der <a href="/Datenschutz" target="_blank">Datenschutzerklärung</a>.
+						der <a style="color: #f15a23" href="/Datenschutz" target="_blank">Datenschutzerklärung</a>.
 					</div>
 				</div>
 				
