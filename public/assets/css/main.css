@@ -2752,7 +2752,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -2801,7 +2801,7 @@ input, select, textarea {
 							margin-left: -0.5rem;
 						}
 
-		}
+		} */
 
 /* Icons */
 
