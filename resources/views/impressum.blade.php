@@ -22,7 +22,7 @@
             </p>
             <p>
                 Sitz: Stuttgart - HRA 10640 <br>
-                Umsatzsteuer-Ident-Nummer: DE 147437710 <br>
+                Umsatzsteuer-Ident-Nummer: DE147437710 <br>
                 Amtsgericht Stuttgart <br>
             </p>
             <p>
