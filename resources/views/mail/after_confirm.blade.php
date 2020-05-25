@@ -11,6 +11,9 @@
 
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
             <p>
+                Jetzt vormerken, die Verlosung erfolgt am 8.6 ab xx Uhr unter <a href="www.facebook.com/werner.bert.stgt">www.facebook.com/werner.bert.stgt</a>
+            </p>
+            <p>
                 Wenn Du gewinnst benachrichtigen wir Dich über Deine angegebene E-Mail-Adresse. Bitte prüfe ggf. Deinen Spam-Ordner. Wir bitten Dich den Empfang innerhalb von xx Tagen, spätestens bis xx.xx.2020 zu bestätigen, damit wir sicher gehen können, dass die Gewinner ihr Nachricht auch erhalten haben.
             </p>
             <p>

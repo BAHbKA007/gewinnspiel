@@ -37,15 +37,20 @@
 	@if ($var['page'] == 'formular')
 
 		<!-- Gewinnspiel -->
-		<p>Wir schätzen Sie als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Ihre Orte zum begegnen, genießen und verweilen haben wir sehr vermisst. Schön das Sie wieder zurück sind. Beim Neustart möchten wir Sie gerne unterstützen.
-			Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR (gültig bis 31.12.2020) aus unserem Sortiment. Hier finden Sie eine reichhaltige Auswahl an Gemüse, Obst und Spezialitäten, täglich frisch in Top Qualität.
-		   
-		   Teilnahmeschluss ist der 6. Juni 2020.
-		   
-		   Teilnahme nur über diese Webseite (gastro-neustart.de) möglich 
-		   
-		   Die Gewinner werden per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt.
-		   </p>
+		<p>Wir schätzen Sie als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. 
+			Ihre Orte zum begegnen, genießen und verweilen haben wir sehr vermisst. Schön das Sie wieder zurück sind. Beim Neustart möchten wir Sie gerne unterstützen.
+			<br><br>
+			Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR (gültig bis 31.12.2020) aus unserem Sortiment. 
+			Hier finden Sie eine reichhaltige Auswahl an Gemüse, Obst und Spezialitäten, täglich frisch in Top Qualität.
+			<br><br>
+			Teilnahmeschluss ist der 6. Juni 2020.
+			<br><br>
+			Teilnahme nur über diese Webseite (gastro-neustart.de) möglich 
+			<br><br>
+			Die Gewinner werden per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt.
+			<br><br>
+			Die kompletten Teilnahmebedingung findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
+		</p>
 
 		<form method="post" action="/teilnahme">
 			@csrf
