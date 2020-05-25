@@ -63,7 +63,8 @@
 						</div>
 					</div>
 					<div class="left">
-						Diese Website verarbeitet Informationen über Ihren Besuch unter Einsatz von Cookies, um die Leistung der Website zu verbessern.
+						Diese Website verarbeitet Informationen über Ihren Besuch unter Einsatz von Cookies, um die Leistung der Website zu verbessern. Genauere Informationen entnehmen Sie bitte
+						der Datenschutzerklärung.
 					</div>
 				</div>
 				

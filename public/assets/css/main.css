@@ -4706,7 +4706,7 @@ input, select, textarea {
 	opacity: 0.99;
 	text-align: center;
 	z-index: 200;
-	height: 14vh;
+	display: block;
 }
 
 .cookie_box {
@@ -4718,14 +4718,12 @@ input, select, textarea {
 
 .left, .right > span {
 	color: white;
+	bottom: 0;
 }
 
 .left {
 	text-align: left;
-	margin: 0 0 0 10vw;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	margin: 10px 0 5px 10vw;
 }
 
 .cookie_box > .right {
