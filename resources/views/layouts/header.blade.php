@@ -108,7 +108,11 @@
                                 class="active"
                             @endif
                             ><a href="/Datenschutz">Datenschutz</a></li>
-						</ul>
+                            <li 
+                            @if ($var['active'] == "UeberUns" )
+                                class="active"
+                            @endif
+                            ><a href="/UeberUns">über uns</a></li>						</ul>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>

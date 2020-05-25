@@ -24,14 +24,19 @@
 				<br><br>
 				Die Verlosung findet am 8. Juni live bei Facebook.com/werner.ebrt.stgt statt.
 				Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
+				<br><br>
+				Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart.
+				Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst.
 			</p>
 	
 		@endif
 	</div>
 		@if (!isset($var['not_passed']))
-			<form method="get" action="/check">
-				<div class="row gtr-uniform">
-					<div class="col-12 col-12-xsmall">
+		<form method="get" action="/check">
+			<div class="row gtr-uniform">
+				<div class="col-12 col-12-xsmall">
+
+					<label for="plz">Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart. Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst:</label>
 						<input type="number" name="Postleitzahl" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
 					</div>
 					<!-- Break -->
