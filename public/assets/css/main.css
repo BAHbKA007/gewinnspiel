@@ -1,6 +1,25 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+@font-face {
+	font-family: 'ubuntu-normal';
+	src: url("/fonts/ubuntu-light-webfont.eot");
+	src: url("/fonts/ubuntu-light-webfont.eot?#iefix") format('embedded-opentype'),
+		url("/fonts/ubuntu-light-webfont.woff") format('woff'),
+		url("/fonts/ubuntu-light-webfont.woff") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ubuntu-bold';
+	src: url("/fonts/ubuntu-bold-webfont.eot");
+	src: url("/fonts/ubuntu-bold-webfont.eot?#iefix") format('embedded-opentype'),
+		url("/fonts/ubuntu-bold-webfont.woff") format('woff'),
+		url("/fonts/ubuntu-bold-webfont.ttf") format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -4731,4 +4750,72 @@ input, select, textarea {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.ueber_uns_font {
+	font-family: 'ubuntu-normal','Open Sans', Arial, sans-serif !important;
+}
+
+.ueber_uns_font > h1{
+	font-family: 'ubuntu-normal','Open Sans', Arial, sans-serif !important;
+	box-sizing:border-box;
+	color:rgb(0, 0, 0);
+	display:block;
+	font-size:40px;
+	font-stretch:100%;
+	font-style:normal;
+	font-variant-caps:normal;
+	font-variant-east-asian:normal;
+	font-variant-ligatures:normal;
+	font-variant-numeric:normal;
+	font-weight:400;
+	height:48px;
+	line-height:48px;
+	margin-block-end:0px;
+	margin-block-start:25px;
+	margin-bottom:0px;
+	margin-inline-end:0px;
+	margin-inline-start:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:25px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	text-size-adjust:100%;
+	width:1140px;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	text-transform: none;
+}
+
+.ueber_uns_font > p {
+	box-sizing:border-box;
+	color:rgb(0, 0, 0);
+	display:block;
+	font-family:uploaded, "Open Sans", Arial, sans-serif;
+	font-size:16px;
+	font-stretch:100%;
+	font-style:normal;
+	font-variant-caps:normal;
+	font-variant-east-asian:normal;
+	font-variant-ligatures:normal;
+	font-variant-numeric:normal;
+	font-weight:400;
+	line-height:24px;
+	margin-block-end:0px;
+	margin-block-start:24px;
+	margin-bottom:0px;
+	margin-inline-end:0px;
+	margin-inline-start:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:24px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	text-size-adjust:100%;
+	width:1140px;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
