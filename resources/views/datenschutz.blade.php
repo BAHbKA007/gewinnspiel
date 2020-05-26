@@ -12,7 +12,7 @@
                 Diese Datenschutzerklärung Gewinnspiel informiert Sie über die Datenverarbeitung bei Teilnahme an unserem Gewinnspiel und auf unseren Social Media Seiten.
             </p>
             <p>
-                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter <a href="{{url('/')}}/Dateien/Datenschutz.pdf" target=”_blank”> abgerufen und ausgedruckt werden.
+                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter <a href="{{url('/')}}/Dateien/Datenschutz.pdf" target=”_blank”>LINK</a> abgerufen und ausgedruckt werden.
             </p>
             <h4>Verantwortlicher</h4>
             <p>
@@ -42,7 +42,7 @@
                 <br><br>Weiter haben wir technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von externen Dienstleistern beachtet werden. Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die etwa Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung.
             </p>
             <h4>Teilnahme am Gewinnspiel</h4>
-            Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren Teilnahmebedingungen <a href="{{url('/')}}/Teilnahmebedingungen"> zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:
+            Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren <a href="{{url('/')}}/Teilnahmebedingungen">Teilnahmebedingungen</a> zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:
             <br><br>
             <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
                 style='border-collapse:collapse;border:none'>
