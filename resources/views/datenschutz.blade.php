@@ -12,7 +12,7 @@
                 Diese Datenschutzerklärung Gewinnspiel informiert Sie über die Datenverarbeitung bei Teilnahme an unserem Gewinnspiel und auf unseren Social Media Seiten.
             </p>
             <p>
-                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter <a href="{{url('/')}}/Dateien/Datenschutz.pdf" target=”_blank”>LINK</a> abgerufen und ausgedruckt werden.
+                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter <a href="{{url('/')}}/Dateien/Datenschutz.pdf" target=”_blank”>{{url('/')}}/Dateien/Datenschutz.pdf</a> abgerufen und ausgedruckt werden.
             </p>
             <h4>Verantwortlicher</h4>
             <p>
