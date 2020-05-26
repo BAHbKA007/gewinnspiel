@@ -12,7 +12,7 @@
                 Diese Datenschutzerklärung Gewinnspiel informiert Sie über die Datenverarbeitung bei Teilnahme an unserem Gewinnspiel und auf unseren Social Media Seiten.
             </p>
             <p>
-                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter #TODO <a href="https://gastro-neustart.de">gastro-neustart.de/download/Datenschutz</a> abgerufen und ausgedruckt werden.
+                Diese Datenschutzerklärung Gewinnspiel kann jederzeit unter <a href="{{url('/')}}/Dateien/Datenschutz.pdf" target=”_blank”> abgerufen und ausgedruckt werden.
             </p>
             <h4>Verantwortlicher</h4>
             <p>
@@ -42,7 +42,7 @@
                 <br><br>Weiter haben wir technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von externen Dienstleistern beachtet werden. Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die etwa Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung.
             </p>
             <h4>Teilnahme am Gewinnspiel</h4>
-            Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren Teilnahmebedingungen [Link zu den Teilnahmebedingungen Gewinnspiel einfügen] zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:
+            Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren Teilnahmebedingungen <a href="{{url('/')}}/Teilnahmebedingungen"> zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:
             <br><br>
             <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
                 style='border-collapse:collapse;border:none'>
@@ -100,19 +100,18 @@
                 <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
                 border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontakt- und
-                Teilnahmedaten</span></p>
+                justify;line-height:normal'><span >Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID)
+                </span></p>
                 </td>
                 <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
                 none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
                 padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Zweck der
-                Teilnahme am und die Dauer des Gewinnspiels: Eine Verarbeitung der Daten
-                findet dabei statt, um die angegebenen Daten und Sie als berechtigten
-                Teilnehmer für das Gewinnspiel zu identifizieren, Gewinner in Form einer
-                Live-Ziehung (auf Facebook) auszuwählen / zu benennen sowie hinsichtlich
-                eines Gewinns zu kontaktieren.</span></p>
+                justify;line-height:normal'><span >Zweck der Teilnahme am und die Dauer des 
+                    Gewinnspiels: Eine Verarbeitung der Daten findet dabei statt, um die 
+                    angegebenen Daten und Sie als berechtigten Teilnehmer für das Gewinnspiel 
+                    zu identifizieren, Gewinner in Form einer Live-Ziehung (auf Facebook) 
+                    auszuwählen / zu benennen sowie hinsichtlich eines Gewinns zu kontaktieren.</span></p>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span >&nbsp;</span></p>
                 </td>
@@ -202,82 +201,6 @@
                 </td>
                 </tr>
             </table>
-            <h4>Newsletter</h4>
-            <p>
-                Mit unserem Newsletter informieren wir Sie über uns und unsere Angebote. 
-                <br>Für die Anmeldung zum Newsletter wird lediglich Ihre E-Mailadresse benötigt. Wenn Sie sich für den Newsletter registrieren, wird Ihre E-Mailadresse an uns (bzw. unseren Mailprovider) übertragen und dort gespeichert. Nach der Anmeldung erhalten Sie eine E-Mail, um die Anmeldung zu bestätigen (“double opt-in”). Mit der Anmeldung zum Newsletter werden folgende Daten verarbeitet:
-            </p>
-            <br>
-            <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
-                style='border-collapse:collapse;border:none'>
-                <tr>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Daten /
-                Informationen</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Verarbeitungszweck</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Rechtsgrundlage </span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Kontaktdaten   (E-Mailadresse,
-                ggf. Name), Gerätedaten  (Gerätename, ggf. Ländercode, Sprache, Name des
-                Betriebssystems und -version), Verbindungsdaten (IP-Adresse, Mailanbieter),
-                Nutzungsdaten</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Nachweis im Fall,
-                dass ein Dritter eine E-Mailadresse missbraucht und sich ohne Wissen des
-                Berechtigten für den Newsletterempfang anmeldet</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Versand des
-                Newsletters</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>ggf. Abmeldung vom
-                Newsletter </span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Einwilligung
-                (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a. DSGVO)</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Art. 6 Abs. 1 S. 1
-                lit. f DSGVO aufgrund unserer berechtigten Interessen der
-                Missbrauchsprävention und Verbesserung unsers Angebots</span></p>
-                </td>
-                </tr>
-            </table>
-            <p ><b><i><u><span>WIDERRUF:</span></u></i></b><span> Sie können Ihre Einwilligung zur Verarbeitung der
-                Daten zum Zweck des Versands des Newsletters jederzeit widerrufen. Der Widerruf
-                kann über einen Link, der in jedem Newsletter enthalten ist, oder per
-                gesonderter Nachricht an uns erfolgen. Dabei entstehen Ihnen keine anderen als
-                die Übermittlungskosten nach den Basistarifen.</span>
-            </p>
 
             <h4>Ihre Rechte</h4>
             <p>
