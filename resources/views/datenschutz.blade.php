@@ -48,18 +48,18 @@
                 style='border-collapse:collapse;border:none'>
                 <tr>
                 <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Daten /
                 Informationen</span></p>
                 </td>
                 <td width=243 valign=top style='width:181.9pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Verarbeitungszweck</span></p>
                 </td>
                 <td width=160 valign=top style='width:120.2pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Rechtsgrundlage </span></p>
                 </td>
@@ -224,18 +224,18 @@
                 style='border-collapse:collapse;border:none'>
                 <tr>
                 <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Daten /
                 Informationen</span></p>
                 </td>
                 <td width=243 valign=top style='width:181.9pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Verarbeitungszweck</span></p>
                 </td>
                 <td width=160 valign=top style='width:120.2pt;border:solid windowtext 1.0pt;
-                border-left:none;background:#f15a23;padding:0cm 5.4pt 0cm 5.4pt'>
+                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
                 <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
                 justify;line-height:normal'><span style="font-weight: bold">Rechtsgrundlage </span></p>
                 </td>
