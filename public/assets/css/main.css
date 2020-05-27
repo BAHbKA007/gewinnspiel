@@ -3260,7 +3260,7 @@ input, select, textarea {
 			background-color: #212931;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg_ohne_logo.jpg");
 			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
+			background-position: right,								right,														top right;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
@@ -4721,7 +4721,7 @@ input, select, textarea {
 	/* left: 0; */
 	bottom: 0;
 	width: 100%;
-	background-color: #5b2d91;
+	background-color: #004f30;
 	opacity: 0.99;
 	text-align: center;
 	z-index: 200;
