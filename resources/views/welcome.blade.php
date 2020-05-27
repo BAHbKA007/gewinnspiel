@@ -39,6 +39,7 @@
 					<label for="plz">Teilnahmeberechtigt sind alle Gastronomen in der Region Stuttgart. Bitte gib Deine Postleitzahl ein, um zu prüfen, ob Du dazuzählst:</label>
 						<input type="number" name="Postleitzahl" id="plz" value="" placeholder="Postleitzahl" min="1001" max="99998" required/>
 					</div>
+
 					<!-- Break -->
 					<div class="col-12">
 						<ul class="actions">
@@ -89,7 +90,12 @@
 				<div class="col-5 col-12-xsmall">
 					<input type="text" name="nachname" id="nachname" value="{{ $var['request']->nachname ?? ''}}" placeholder="Nachname" required/>
 				</div>
-
+				
+				<!-- wichtig -->
+				<div class="col-12 col-12-xsmall" hidden>
+					<input type="text" name="wichtig" id="wichtig" value="" placeholder="wichtig"/>
+				</div>
+				
 				<!-- Firma -->
 				<div class="col-12 col-12-xsmall">
 					<input type="text" name="fiirma" id="firma" value="{{ $var['request']->fiirma ?? ''}}" placeholder="Firma" required/>
@@ -129,8 +135,6 @@
 					<input type="checkbox" id="einverstanden" name="einverstanden" {{ (isset($var['request']->einverstanden) && $var['request']->einverstanden == 'on') ? 'checked' : ''}} required>
 					<label for="einverstanden">Ich akzeptiere die <a href="/Teilnahmebedingungen">Teilnahmebedingungen</a> und die <a href="/Datenschutz">Datenschutzerklärung.</a></label> 
 				</div>
-
-				<div class="g-recaptcha" data-sitekey="6Lcx3_wUAAAAAD6GPBQv1O8EHbMxj2YI8va-1bFA"></div>
 
 				<!-- Break -->
 				<div class="col-12">

@@ -9,6 +9,7 @@ use App\Postleitzahl;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Session;
+use Redirect;
 
 class TeilnehmerController extends Controller
 {
@@ -72,6 +73,11 @@ class TeilnehmerController extends Controller
                     'active' => 'Gewinnspiel'
                 ]]);
         } else {
+
+            if (isset($request->wichtig)) {
+                return Redirect::to('http://www.google.com');
+            }
+
             $teilnehmer = new Teilnehmer;
             $teilnehmer->anrede = $request->anrede;
             $teilnehmer->vorname = $request->vorname;

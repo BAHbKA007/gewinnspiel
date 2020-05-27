@@ -14,9 +14,6 @@
         <!-- Styles -->
         {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
         <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-
-        {{-- Google reCAPTCHA --}}
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         
         <meta name="application-name" content="Gastro Neustart">
         <meta name="mobile-web-app-capable" content="yes">
