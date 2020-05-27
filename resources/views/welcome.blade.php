@@ -130,6 +130,8 @@
 					<label for="einverstanden">Ich akzeptiere die <a href="/Teilnahmebedingungen">Teilnahmebedingungen</a> und die <a href="/Datenschutz">Datenschutzerklärung.</a></label> 
 				</div>
 
+				<div class="g-recaptcha" data-sitekey="6Lcx3_wUAAAAAD6GPBQv1O8EHbMxj2YI8va-1bFA"></div>
+
 				<!-- Break -->
 				<div class="col-12">
 					<ul class="actions">
