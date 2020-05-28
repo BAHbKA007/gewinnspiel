@@ -11,6 +11,11 @@
 						Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
 						Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
 					</h2>	
+					<h2>
+						Natürlich kannst Du die Seite gerne an deine Kollegen aus dem Gebiet weiterempfehlen, damit sie die Chance nutzen können.
+					</h2>
+					<span class="image fit"><img src="images/map_breit.png" alt="" /></span>
+
 				@else
 			
 				<p class="pic_left_right"><span class="image left"><img src="images/Vorlag-600x600px-Aktion.png" alt="" /></span>
@@ -133,13 +138,15 @@
 					<!-- Erklärungen -->
 					<div class="col-12 col-12-small">
 						<input type="checkbox" id="einverstanden" name="einverstanden" {{ (isset($var['request']->einverstanden) && $var['request']->einverstanden == 'on') ? 'checked' : ''}} required>
-						<label for="einverstanden">Ich akzeptiere die <a href="/Teilnahmebedingungen">Teilnahmebedingungen</a> und die <a href="/Datenschutz">Datenschutzerklärung.</a></label> 
+						<label for="einverstanden">Ich akzeptiere die <a href="/Teilnahmebedingungen">Teilnahmebedingungen</a> und die <a href="/Datenschutz">Datenschutzerklärung.</a></label>
+						<br>
+						<span id="zustimmung" style="color: red;font-size:14px;font-style: italic;" hidden>Die Zustimmung ist zwingend erforderlich</span>
 					</div>
 
 					<!-- Break -->
 					<div class="col-12">
 						<ul class="actions">
-							<li><input type="submit" value="teilnehmen" class="primary" /></li>
+							<li><input id="submit" type="submit" value="teilnehmen" class="primary" /></li>
 						</ul>
 					</div>
 				</div>

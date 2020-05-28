@@ -23,6 +23,7 @@
                     <br><br>Die Teilnahme am Gewinnspiel erfolgt freiwillig und kostenfrei und ist ohne den Kauf einer Ware oder Dienstleistung möglich. Die Teilnahme und Durchführung des Gewinnspiels sowie das Einlösen der Gewinngutscheine richtet sich nach den nachfolgenden Bestimmungen. 
                     <br><br>Diese Teilnahmebedingungen gelten ausschließlich. Abweichende, entgegenstehende oder ergänzende Allgemeine Geschäftsbedingungen des Teilnehmers werden nur dann und insoweit Vertragsbestandteil, als der Anbieter ihrer Geltung ausdrücklich zugestimmt hat.
                     <br><h4>1. Teilnahme am Gewinnspiel</h4>
+                </span>
                 <span>
                     Das Gewinnspiel findet in Deutschland statt und steht vom 30. Mai 2020 bis zum 6. Juni 2020, 00:00 Uhr zur Teilnahme über die Webseite <a href="{{url('/')}}">{{url('/')}}</a>  offen.
                     <br><br>Die verbindliche Anmeldung des Teilnehmers zum Gewinnspiel erfolgt mindestens in Textform mit Anklicken des entsprechenden Teilnahme-Buttons auf der Webseite. 
@@ -30,11 +31,13 @@
                     <br><br>Alle Anmeldungen, die nach Ablauf der festgelegten Frist eingehen, sind von der Teilnahme ausgeschlossen.
                     <br><br>Das Gewinnspiel kann vom Anbieter jederzeit ohne Angabe von Gründen beendet werden. Ist dies der Fall, werden die Teilnehmer hierüber informiert.
                     <br><br>Der Anbieter behält sich weiterhin vor, das Gewinnspiel jederzeit ohne Vorankündigung zu beenden oder zu ändern, wenn aus technischen oder sonstigen Gründen eine ordnungsgemäße Durchführung nicht gewährleistet werden kann oder die Fairness beeinträchtigt erscheint.
+                </span>
                 <span>
                     <br><br><br><h4>2. Teilnahmeberechtigung</h4>
                     Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in der Region Stuttgart, Deutschland PLZ 70180 bis 70839, 71032 bis 71093, 71101 bis 71157 (ohne 71120, 71131, 71134), 71229 bis 71287 (ohne 71263), 71332 bis 71397, 71409, 71563, 71636	bis 71696, 71701 bis 71706 und 71726	bis  71739, 72070 bis 72076, 72108 bis	72149 (ohne 72116, 72127, 72131, 72138, 72144, 72145, 72147), 72622 bis 72669 (ohne 72636, 72639), 73061, 73207 bis 73278 (ohne 73235, 73252, 73265, 73266, 73268, 73271, 73272, 73275, 73277), 73614 bis 73669 (ohne 73635, 73642, 73655, 73663, 73667), 73728 bis 73779, 74321. Dies entspricht dem Liefergebiet des Anbieters.
                     <br><br>Manipulationsversuche führen zum Ausschluss vom Gewinnspiel. 
                     <br><br>Um am Gewinnspiel auf der Webseite <a href="{{url('/')}}">{{url('/')}}</a> teilzunehmen, muss die Anmeldung in jeder Hinsicht vollständig sein und insbesondere die abgefragten Daten (Firma, Adresse, Umsatzsteuer-ID, E-Mail) eingegeben werden.
+                </span>
                 <span>
                     <br><br><br><h4>3. Preise; Bedingungen zur Einlösung der Warengutscheine</h4>
                     Die Preise des Gewinnspiels sind 100 Warengutscheine für das gesamte Sortiment des Anbieters jeweils im Wert von 1.000,- EUR (netto), einzulösen bis 31. Dezember 2020 gemäß dieser Teilnahmebedingungen. Der Preis wird jeweils durch den Anbieter ohne weitere Kosten (mit Ausnahme der Übermittlungskosten nach den Basistarifen) an die Gewinner verschickt.
@@ -43,6 +46,7 @@
                     <br><br>Die Warengutscheine können bis 31. Dezember 2020, 00:00 Uhr (Eingang beim Anbieter maßgeblich) direkt beim Anbieter persönlich, per Telefon, Fax, E-Mail oder Post,  durch den Teilnehmer eingelöst werden. Dabei muss jeweils der Gutscheincode angegeben werden, der den Gewinnern per E-Mail zugesandt. wurde. Eine nachträgliche Verrechnung ist nicht möglich. Der Warengutschein kann innerhalb des Einlösungszeitraums auf mehrere Bestellungen beim Anbieter verteilt werden. Der Warengutschein wird weder in Bargeld ausgezahlt noch verzinst. Es ist keine Erstattung des Warengutscheins bzw. etwaigen Restguthabens möglich. Nicht mit anderen Aktionen kombinierbar. Für die Bestellung und Lieferung der Waren aufgrund der eingelösten Gutscheine entstehen nur die Übermittlungskosten nach den Basistarifen. Im Übrigen gelten für die Bestellung der Waren die Allgemeinen Geschäftsbedingungen des Anbieters.
                     <br><br>Der Anbieter ist berechtigt, Teilnehmer ohne vorherige Ankündigung vom Gewinnspiel auszuschließen, wenn sie nicht die dem Gewinnspiel zugrundeliegenden Bedingungen einhalten oder das Gewinnspiel, insbesondere das Teilnahmeverfahren, manipulieren und/oder wenn sie vorsätzlich gegen die Bedingungen verstoßen, insbesondere durch mehrfache Teilnahme. 
                     <br><br>Der Gewinn kann im Nachhinein aberkannt werden, wenn sich später herausstellt, dass keine Teilnahmeberechtigung bestand oder während des Gewinnspiels entfallen ist.                </span>
+                </span>
                 <span>
                     <br><br><br><h4>4. Haftung</h4>
                     Unrichtige oder unvollständige Anmeldungen sind ungültig und berechtigen weder zur Teilnahme noch zur Entgegennahme von Preisen. Unrichtige Anmeldungen sind solche, bei denen Daten unrichtig oder unvollständig sind. Einsendungen über andere Plattformen als die Webseite werden nicht dem Gewinnspiel zugerechnet und als regelwidrige Bewerbungen behandelt. Der Anbieter ist berechtigt, Teilnehmer auszuschließen, wenn begründete Zweifel bestehen, dass der Teilnehmer nicht verifizierte Teilnahmemethoden anwendet.  
@@ -52,6 +56,7 @@
                 <span>
                     <br><br><br><h4>5. Datenschutz</h4>
                     Wir verarbeiten personenbezogene Daten gemäß den Bestimmungen der Datenschutz-Grundverordnung der EU (DSGVO) und des Bundesdatenschutzgesetzes (BDSG). Der Anbieter behält sich das Recht vor, die Richtigkeit und Wahrhaftigkeit der Daten zu überprüfen. Details zur Datenverarbeitung können Sie in unserer <a href="Datenschutz">Datenschutzerklärung Gewinnspiel</a> einsehen.                </span>
+                </span>
                 <span>
                     <br><br><br><h4>6. Schlussbestimmungen</h4>
                     Für das Gewinnspiel gilt ausschließlich das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Die gesetzlichen Vorschriften zur Beschränkung der Rechtswahl und zur Anwendbarkeit zwingender Vorschriften insbesondere des Staates, in dem der Teilnehmer als Verbraucher seinen gewöhnlichen Aufenthalt hat, bleiben unberührt. 

@@ -89,9 +89,21 @@
 					}
 				});
 
-				console.log('clicked');
-
 				$('#cookie_footer').fadeOut();
+			});
+
+			$("#submit").on('click', function () {
+				if (!$('#einverstanden').is(':checked')) {
+					$("#zustimmung").show();
+				}
+			});
+
+			$("#einverstanden").on('click', function () {
+				if (!$('#einverstanden').is(':checked')) {
+					$("#zustimmung").show();
+				} else {
+					$("#zustimmung").hide();
+				}
 			});
 
             $(document).ready(function () {
