@@ -57,7 +57,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 
 ol, ul {
@@ -188,6 +188,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		text-decoration: none;
+		font-weight: bold;
 	}
 
 		a:hover {
@@ -3386,6 +3387,7 @@ input, select, textarea {
 		#intro input[type="button"],
 		#intro button,
 		#intro .button {
+			margin-top: 22px;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #ffffff;
 			color: #ffffff !important;
@@ -3419,9 +3421,10 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 2rem;
+			font-size: 4rem;
 			line-height: 1;
 			margin-bottom: 0;
+			color: white;
 		}
 
 		#intro p {
@@ -3508,7 +3511,7 @@ input, select, textarea {
 			}
 
 				#intro h1 {
-					font-size: 2rem;
+					font-size: 3rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}

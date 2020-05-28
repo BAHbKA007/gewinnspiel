@@ -9,7 +9,7 @@
         <title>{{config('app.name')}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="/assets/css/main.css?v=6" />
+        <link rel="stylesheet" href="/assets/css/main.css?v=7" />
 
         <!-- Styles -->
         {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
@@ -73,7 +73,7 @@
                         {{-- <ul class="actions">
                             <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
-                        <h1 style="color: #f15a23">
+                        <h1>
                             100.000,- EURO ZUM NEUSTART
                             DER STUTTGARTER GASTRONOMIE
                         </h1>
@@ -101,16 +101,20 @@
                             class="active"
                             @endif
                             ><a href="/Teilnahmebedingungen">Teilnahmebedingungen</a></li>
+
+                            
+                            <li 
+                            @if ($var['active'] == "Datenschutz" )
+                            class="active"
+                            @endif
+                            ><a href="/Datenschutz">Datenschutz</a></li>
+                            
                             <li 
                                 @if ($var['active'] == "Impressum")
                                     class="active"
                                 @endif
                             ><a href="/Impressum">Impressum</a></li>
-                            <li 
-                            @if ($var['active'] == "Datenschutz" )
-                                class="active"
-                            @endif
-                            ><a href="/Datenschutz">Datenschutz</a></li>
+
                             <li 
                             @if ($var['active'] == "UeberUns" )
                                 class="active"

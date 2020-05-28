@@ -27,7 +27,7 @@
 				Die Verlosung findet am 8. Juni live bei Facebook.com/werner.ebrt.stgt statt.
 				Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
 				Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in unserem Liefergebiet.
-			</p> <br><br><br><br>
+			</p>
 		
 			@endif
 		</div>
