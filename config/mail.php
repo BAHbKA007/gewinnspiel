@@ -88,6 +88,10 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Gastro Neustart'),
     ],
 
+    'reply_to' => [
+        'address' => 'noreply@gastro-neustart.de', 
+        'name' => env('MAIL_FROM_NAME', 'Gastro Neustart')
+    ],
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings

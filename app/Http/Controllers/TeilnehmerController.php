@@ -77,7 +77,7 @@ class TeilnehmerController extends Controller
             if (isset($request->wichtig)) {
                 return Redirect::to('http://www.google.com');
             }
-
+            
             $teilnehmer = new Teilnehmer;
             $teilnehmer->anrede = $request->anrede;
             $teilnehmer->vorname = $request->vorname;
@@ -94,12 +94,16 @@ class TeilnehmerController extends Controller
             
             $teilnehmer->save();
             $id = $teilnehmer->id;
-
+            
             $teilnehmer = Teilnehmer::find($id);
             $teilnehmer->hash  = md5($id);
             $teilnehmer->save();
-
-            Mail::to($teilnehmer->email)->send(new MailBestaetigung($teilnehmer));
+            
+            try {
+                Mail::to($teilnehmer->email)->send(new MailBestaetigung($teilnehmer));
+            } catch (\Exception $e) {
+                report($e);
+            }
 
             return view('teilnahme_erfolgreich', [
                 'var' => [

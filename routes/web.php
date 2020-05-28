@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Hash;
 
 Route::get('/test', function ()
 {
+    return random_int (0, 1);
     return Hash::make('asdasd');
 });
 

@@ -31,6 +31,12 @@ class MailBestaetigung extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.bestaetigung');
+        $subject = [
+            "bitte bestätigen Sie ".$this->teilnehmer->email,
+            $this->teilnehmer->email." muss noch bestätigt werden"
+        ];
+
+        return $this->subject($subject[random_int (0, 1)])
+                    ->view('mail.bestaetigung');
     }
 }
