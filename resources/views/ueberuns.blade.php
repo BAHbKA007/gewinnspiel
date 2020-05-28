@@ -30,7 +30,7 @@
 
             Mehr über uns
             <p style="text-align: center">
-                <a href="https://www.werner-ebert.de" class="button primary large">Link</a>
+                <a href="https://www.werner-ebert.de" target="_blank" class="button primary large">Link</a>
             </p>
         </p>
     </section>
