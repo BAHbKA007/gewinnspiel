@@ -2,36 +2,36 @@
 
 <!-- Main -->
 <div id="main" class="cover blur-in">
-	<section class="post">
+	<section class="post" id="jump-action">
 		@if ($var['page'] == 'start')
 		<!-- Form -->
-		<div id="jump-action"  class="box">
-			@if(isset($var['not_passed']))
-				<h2>Wir wollen die Region stärken.
-					Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
-					Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
-				</h2>	
-			@else
-		
-			<p style="text-align: left;line-height:1.4"><span class="image left"><img src="images/Vorlag-600x600px-Aktion.png" alt="" /></span>
-				Wir schätzen Euch als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Eure Orte zum begegnen, genießen und verweilen 
-				haben wir sehr vermisst. Schön das ihr wieder zurück seid. Beim Neustart möchten wir Sie gerne unterstützen.
-				Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR aus unserem gesamten Sortiment, 
-				wo wir täglich eine breite Auswahl an frischem Obst, Gemüse und Spezialitäten anbieten.
-				Hier findet Ihr die kompletten <br><br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a>
-			</p>
-			<hr>
-			<p style="text-align: left;line-height:1.4"><span class="image right"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
-				Einfach Postleitzahl eingeben, und prüfen ob ihr in unserer Region liegt, dann anmelden und Gewinnchance sichern. <br><br>
-				Teilnahmeschluss ist der 6. Juni 2020.<br><br>
-				Die Verlosung findet am 8. Juni live bei Facebook.com/werner.ebrt.stgt statt.
-				Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
-				Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in unserem Liefergebiet.
-			</p>
+			<div>
+				@if(isset($var['not_passed']))
+					<h2>Wir wollen die Region stärken.
+						Leider befindest Du Dich außerhalb des definierten Teilnahemgebiets.
+						Die genauen Teilnahmebedingungen findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
+					</h2>	
+				@else
+			
+				<p class="pic_left_right"><span class="image left"><img src="images/Vorlag-600x600px-Aktion.png" alt="" /></span>
+					Wir schätzen Euch als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Eure Orte zum begegnen, genießen und verweilen 
+					haben wir sehr vermisst. Schön das ihr wieder zurück seid. Beim Neustart möchten wir Sie gerne unterstützen.
+					Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR aus unserem gesamten Sortiment, 
+					wo wir täglich eine breite Auswahl an frischem Obst, Gemüse und Spezialitäten anbieten.
+					Hier findet Ihr die kompletten <br><br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a>
+				</p>
+			</div>
+
+				<p class="pic_left_right"><span class="image right"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
+					Einfach Postleitzahl eingeben, und prüfen ob ihr in unserer Region liegt, dann anmelden und Gewinnchance sichern. <br><br>
+					Teilnahmeschluss ist der 6. Juni 2020.<br><br>
+					Die Verlosung findet am 8. Juni live bei Facebook.com/werner.ebrt.stgt statt.
+					Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
+					Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in unserem Liefergebiet.
+				</p>
+
 		
 			@endif
-		</div>
-		<hr/>
 			@if (!isset($var['not_passed']))
 				<form method="get" action="/check">
 				<div class="row gtr-uniform">
