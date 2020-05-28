@@ -32,7 +32,7 @@
                 <br>E.M.A. services
                 <br>Richard Ruckgaber
                 <br>Telefon: +49 (0)7181 64444
-                <br>E-Mail: <a href="datenschutz@ema-services.de">datenschutz@ema-services.de</a>
+                <br>E-Mail: <a href="mailto:datenschutz@ema-services.de">datenschutz@ema-services.de</a>
             </p>
             <h4>Umfang der Datenverarbeitung</h4>
             <p>

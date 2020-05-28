@@ -3822,6 +3822,7 @@ input, select, textarea {
 
 		#main > .post  > p {
 			line-height: 1.4;
+			text-align: left;
 		}
 
 			#main > .post header.major > .date {

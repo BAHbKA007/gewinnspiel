@@ -56,9 +56,7 @@
 		@if ($var['page'] == 'formular')
 
 			<!-- Gewinnspiel -->
-			<p>Wir schätzen Sie als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. 
-				Ihre Orte zum begegnen, genießen und verweilen haben wir sehr vermisst. Schön das Sie wieder zurück sind. Beim Neustart möchten wir Sie gerne unterstützen.
-				<br><br>
+			<p>
 				Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR (gültig bis 31.12.2020) aus unserem Sortiment. 
 				Hier finden Sie eine reichhaltige Auswahl an Gemüse, Obst und Spezialitäten, täglich frisch in Top Qualität.
 				<br><br>
