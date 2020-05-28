@@ -28,10 +28,15 @@
 
             Qualität zählt nicht nur beim Produkt, sondern auch beim Service: Unser eigener Fuhrpark mit Lieferservice stellt sicher, dass unsere Ware besonders frisch und pünktlich bei Ihnen ankommt – bei Bedarf küchenfertig aufbereitet.
 
-            Mehr über uns
-            <p style="text-align: center">
-                <a href="https://www.werner-ebert.de" target="_blank" class="button primary large">Link</a>
+            <p>
+                Mehr über uns:
             </p>
+
+            <ul class="icons alt">
+                <li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.werner-ebert.de/" class="icon brands alt fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+            </ul>
         </p>
     </section>
 </div>

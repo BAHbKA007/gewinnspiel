@@ -9,13 +9,14 @@
 
         <!-- Text stuff -->
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
+
             <p>
-                Wenn Du gewinnst benachrichtigen wir Dich über Deine angegebene E-Mail-Adresse. Bitte prüfe ggf. 
-                Deinen Spam-Ordner. Wir bitten Dich den Empfang innerhalb von xx Tagen, spätestens bis 17.05.2020 zu bestätigen, 
-                damit wir sicher gehen können, dass die Gewinner ihr Nachricht auch erhalten haben.
-            </p>
-            <p>
-                Mehr über uns: <a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH</a>
+                Mehr über uns:             
+                <ul class="icons alt">
+                    <li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.werner-ebert.de/" class="icon brands alt fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+                </ul>
             </p>
 
     </section>

@@ -14,7 +14,7 @@
 					<h2>
 						Natürlich kannst Du die Seite gerne an deine Kollegen aus dem Gebiet weiterempfehlen, damit sie die Chance nutzen können.
 					</h2>
-					<span class="image fit"><img src="images/map_breit.png" alt="" /></span>
+					<span class="image fit" style="margin-left: auto;margin-right: auto;width: 100%;max-width: 600px;"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
 
 				@else
 			

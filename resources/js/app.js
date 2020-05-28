@@ -6,6 +6,7 @@
 
 require('./bootstrap');
 window.$ = require('jquery');
+global.$ = global.jQuery = require('jquery');
 
 $(document).ready(function () 
 { $(function () {
