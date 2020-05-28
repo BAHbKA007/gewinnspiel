@@ -42,165 +42,45 @@
                 <br><br>Weiter haben wir technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von externen Dienstleistern beachtet werden. Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die etwa Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung.
             </p>
             <h4>Teilnahme am Gewinnspiel</h4>
-            Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren <a href="{{url('/')}}/Teilnahmebedingungen">Teilnahmebedingungen</a> zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:
-            <br><br>
-            <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
-                style='border-collapse:collapse;border:none'>
-                <tr>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Daten /
-                Informationen</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border:solid windowtext 1.0pt;
-                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Verarbeitungszweck</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border:solid windowtext 1.0pt;
-                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Rechtsgrundlage </span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontaktdaten,
-                Gerätedaten  (Gerätename, ggf. Ländercode, Sprache, Name des Betriebssystems
-                und -version), Verbindungsdaten (IP-Adresse, Mailanbieter)</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >&nbsp;</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Verifizierung der
-                E-Mailadresse und Nachweis im Fall, dass ein Dritter eine E-Mailadresse
-                missbraucht und sich ohne Wissen des Berechtigten anmeldet</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span > </span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Einwilligung
-                (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a. DSGVO)</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Art. 6 Abs. 1 S. 1
-                lit. f DSGVO aufgrund unserer berechtigten Interessen der
-                Missbrauchsprävention und Verbesserung unsers Angebots</span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID)
-                </span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Zweck der Teilnahme am und die Dauer des 
-                    Gewinnspiels: Eine Verarbeitung der Daten findet dabei statt, um die 
-                    angegebenen Daten und Sie als berechtigten Teilnehmer für das Gewinnspiel 
-                    zu identifizieren, Gewinner in Form einer Live-Ziehung (auf Facebook) 
-                    auszuwählen / zu benennen sowie hinsichtlich eines Gewinns zu kontaktieren.</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >&nbsp;</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Einwilligung
-                (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) </span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >anbahnende oder
-                bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1
-                lit. b. DSGVO)</span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontaktdaten,
-                Angaben innerhalb der Kontaktaufnahme</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Bearbeitung der
-                Anfrage, Speicherung für den Fall von Anschlussfragen</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Einwilligung
-                (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) </span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >anbahnende oder
-                bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1
-                lit. b. DSGVO)</span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontaktdaten bzw.
-                sonstige zum Vertragsverhältnis bereitgestellte Daten</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Einhaltung von
-                gesetzlichen Pflichten (z.B. von handels- bzw. steuerrechtlichen
-                Aufbewahrungspflichten)</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Art. 6 Abs. 1 S. 1
-                lit. c. DSGVO</span></p>
-                </td>
-                </tr>
-                <tr style='height:101.2pt'>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Kontaktdaten bzw.
-                sonstige zum bereitgestellte Daten</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Geltendmachung,
-                Ausübung und Verteidigung von Rechtsansprüchen, wobei dabei unser
-                berechtigtes Interesse etwa in der Geltendmachung rechtlicher Ansprüche und
-                Verteidigung bei rechtlichen Streitigkeiten liegt</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt;height:101.2pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span >Art. 6 Abs. 1 S. 1
-                lit. f. DSGVO</span></p>
-                </td>
-                </tr>
-            </table>
+            <p>Bei der Teilnahme an unserem Gewinnspiel stellen Sie Ihre Kontaktdaten (wie Name, E-Mailadresse oder Telefon-/Mobilfunknummer) bereit. Details zum Gewinnspiel sind in unseren <a href="{{url('/')}}/Teilnahmebedingungen">Teilnahmebedingungen</a> zu finden. Eine Datenverarbeitung findet dabei durch uns (bzw. durch eingesetzte Softwareanbieter) auf der Webseite, in unseren IT-Systemen und auf Social Media wie folgt statt:</p>
+            <div class="table-wrapper">
+                <table class="alt">
+                    <thead>
+                        <tr>
+                            <th>Daten / Informationen</th>
+                            <th>Verarbeitungszweck</th>
+                            <th>Rechtsgrundlage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kontaktdaten, Gerätedaten  (Gerätename, ggf. Ländercode, Sprache, Name des Betriebssystems und -version), Verbindungsdaten (IP-Adresse, Mailanbieter)</td>
+                            <td>Verifizierung der E-Mailadresse und Nachweis im Fall, dass ein Dritter eine E-Mailadresse missbraucht und sich ohne Wissen des Berechtigten anmeldet</td>
+                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a. DSGVO) Art. 6 Abs. 1 S. 1 lit. f DSGVO aufgrund unserer berechtigten Interessen der Missbrauchsprävention und Verbesserung unsers Angebots</td>
+                        </tr>
+                        <tr>
+                            <td>Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID)</td>
+                            <td>Zweck der Teilnahme am und die Dauer des Gewinnspiels: Eine Verarbeitung der Daten findet dabei statt, um die angegebenen Daten und Sie als berechtigten Teilnehmer für das Gewinnspiel zu identifizieren, Gewinner in Form einer Live-Ziehung (auf Facebook) auszuwählen / zu benennen sowie hinsichtlich eines Gewinns zu kontaktieren.</td>
+                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</td>
+                        </tr>
+                        <tr>
+                            <td>Kontaktdaten, Angaben innerhalb der Kontaktaufnahme</td>
+                            <td>Bearbeitung der Anfrage, Speicherung für den Fall von Anschlussfragen</td>
+                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</td>
+                        </tr>
+                        <tr>
+                            <td>Kontaktdaten bzw. sonstige zum Vertragsverhältnis bereitgestellte Daten</td>
+                            <td>Einhaltung von gesetzlichen Pflichten (z.B. von handels- bzw. steuerrechtlichen Aufbewahrungspflichten)</td>
+                            <td>Art. 6 Abs. 1 S. 1 lit. c. DSGVO</td>
+                        </tr>
+                        <tr>
+                            <td>Kontaktdaten bzw. sonstige zum bereitgestellte Daten</td>
+                            <td>Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen, wobei dabei unser berechtigtes Interesse etwa in der Geltendmachung rechtlicher Ansprüche und Verteidigung bei rechtlichen Streitigkeiten liegt</td>
+                            <td>Art. 6 Abs. 1 S. 1 lit. f. DSGVO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <h4>Ihre Rechte</h4>
             <p>
@@ -220,74 +100,31 @@
             <p>
                 Wir (beziehungsweise der Webspace-Provider) erheben Daten über jeden Besuch unserer Webseite (so genannte Serverlogfiles). Die im Folgenden genannten Daten werden wie folgt verarbeitet:
             </p>
-            <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
-                style='border-collapse:collapse;border:none'>
-                <tr>
-                <td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Daten /
-                Informationen</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border:solid windowtext 1.0pt;
-                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Verarbeitungszweck</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border:solid windowtext 1.0pt;
-                border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span style="font-weight: bold">Rechtsgrundlage </span></p>
-                </td>
-                </tr>
-                <tr>
-                <td width=201 rowspan=2 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
-                border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Name der
-                abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene
-                Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version,
-                Betriebssystem/-version, Referrer URL (die zuvor besuchte Seite), IP-Adresse
-                und der anfragende Provider, ggf. Ländercode, Sprache, Gerätename</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                </td>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>statistische
-                Auswertungen zum Zweck der Optimierung unserer Webseite, Gewährleistung der
-                Stabilität und Betriebssicherheit der Webseite </span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Art. 6 Abs. 1 S.1
-                lit. f DSGVO aufgrund unseres berechtigten Interesses der Betrugsprävention
-                und Qualitätssicherung</span></p>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>&nbsp;</span></p>
-                </td>
-                </tr>
-                <tr>
-                <td width=243 valign=top style='width:181.9pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Erfüllung
-                gesetzlicher Pflichten, aus Gründen der Datensicherheit</span></p>
-                </td>
-                <td width=160 valign=top style='width:120.2pt;border-top:none;border-left:
-                none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-                padding:0cm 5.4pt 0cm 5.4pt'>
-                <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-                justify;line-height:normal'><span>Art. 6 Abs. 1 S. 1
-                lit. c DSGVO</span></p>
-                </td>
-                </tr>
-            </table>
+
+            <div class="table-wrapper">
+                <table class="alt">
+                    <thead>
+                        <tr>
+                            <th>Daten / Informationen</th>
+                            <th>Verarbeitungszweck</th>
+                            <th>Rechtsgrundlage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" colspan="1">
+                            Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, Betriebssystem/-version, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider, ggf. Ländercode, Sprache, Gerätename
+                            </td>
+                            <td>statistische Auswertungen zum Zweck der Optimierung unserer Webseite, Gewährleistung der Stabilität und Betriebssicherheit der Webseite</td>
+                            <td>Art. 6 Abs. 1 S.1 lit. f DSGVO aufgrund unseres berechtigten Interesses der Betrugsprävention und Qualitätssicherung</td>
+                        </tr>
+                        <tr>
+                            <td>Erfüllung gesetzlicher Pflichten, aus Gründen der Datensicherheit</td>
+                            <td>Art. 6 Abs. 1 S. 1 lit. c DSGVO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <h4>Cookies auf der Webseite</h4>
             <p>
