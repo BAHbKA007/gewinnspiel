@@ -56,25 +56,38 @@
                         <tr>
                             <td>Kontaktdaten, Gerätedaten  (Gerätename, ggf. Ländercode, Sprache, Name des Betriebssystems und -version), Verbindungsdaten (IP-Adresse, Mailanbieter)</td>
                             <td>Verifizierung der E-Mailadresse und Nachweis im Fall, dass ein Dritter eine E-Mailadresse missbraucht und sich ohne Wissen des Berechtigten anmeldet</td>
-                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a. DSGVO) Art. 6 Abs. 1 S. 1 lit. f DSGVO aufgrund unserer berechtigten Interessen der Missbrauchsprävention und Verbesserung unsers Angebots</td>
+                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a. DSGVO)
+                                Art. 6 Abs. 1 S. 1 lit. f DSGVO aufgrund unserer berechtigten Interessen der Missbrauchsprävention und Verbesserung unsers Angebots
+                            </td>
                         </tr>
                         <tr>
-                            <td>Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID)</td>
-                            <td>Zweck der Teilnahme am und die Dauer des Gewinnspiels: Eine Verarbeitung der Daten findet dabei statt, um die angegebenen Daten und Sie als berechtigten Teilnehmer für das Gewinnspiel zu identifizieren, Gewinner in Form einer Live-Ziehung (auf Facebook) auszuwählen / zu benennen sowie hinsichtlich eines Gewinns zu kontaktieren.</td>
-                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</td>
+                            <td>Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID), ggf. abweichende Kontaktdaten innerhalb einer Bestellung (bei Einlösen des Gewinns)</td>
+                            <td>
+                                Zweck der Teilnahme am und die Dauer des Gewinnspiels: Eine Verarbeitung der Daten findet dabei statt, um die angegebenen Daten und Sie als berechtigten Teilnehmer für das Gewinnspiel zu identifizieren, Gewinner in Form einer Live-Ziehung (auf Facebook) auszuwählen / zu benennen sowie hinsichtlich eines Gewinns zu kontaktieren.
+                                Zweck des Einlösens des Gewinns: Eine Verarbeitung der Daten findet dabei statt, um den Gewinn zuzuordnen und die Bestellung zu bearbeiten.
+                            </td>
+                            <td>
+                                Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) 
+                                anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)
+                            </td>
                         </tr>
                         <tr>
                             <td>Kontaktdaten, Angaben innerhalb der Kontaktaufnahme</td>
                             <td>Bearbeitung der Anfrage, Speicherung für den Fall von Anschlussfragen</td>
-                            <td>Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</td>
+                            <td>
+                                Einwilligung (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit a. DSGVO) 
+                                anbahnende oder bestehende Geschäftsbeziehung mit uns (Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. b. DSGVO)
+                            </td>
                         </tr>
                         <tr>
-                            <td>Kontaktdaten bzw. sonstige zum Vertragsverhältnis bereitgestellte Daten</td>
+                            <td>Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID), ggf. Angaben innerhalb einer Kontaktaufnahme 
+                                <i>(jeweils nur soweit Verarbeitung zur Einhaltung gesetzlicher Pflichten erforderlich)</i>
+                            </td>
                             <td>Einhaltung von gesetzlichen Pflichten (z.B. von handels- bzw. steuerrechtlichen Aufbewahrungspflichten)</td>
                             <td>Art. 6 Abs. 1 S. 1 lit. c. DSGVO</td>
                         </tr>
                         <tr>
-                            <td>Kontaktdaten bzw. sonstige zum bereitgestellte Daten</td>
+                            <td>Kontakt- und Teilnahmedaten (u.a. Name, Adresse, E-Mailadresse, Umsatzsteuer-ID), ggf. Angaben innerhalb einer Kontaktaufnahme</td>
                             <td>Geltendmachung, Ausübung und Verteidigung von Rechtsansprüchen, wobei dabei unser berechtigtes Interesse etwa in der Geltendmachung rechtlicher Ansprüche und Verteidigung bei rechtlichen Streitigkeiten liegt</td>
                             <td>Art. 6 Abs. 1 S. 1 lit. f. DSGVO</td>
                         </tr>
