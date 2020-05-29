@@ -10,7 +10,7 @@
         <!-- Text stuff -->
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg!</h2>
             Bitte prüfe Deinen E-Mail-Eingang und vergiß nicht Deine Teilnahme zu bestätigt.
-            <br>Sei live dabei bei der Verlosung am 8. Juni 2020 ab 17 Uhr im Videostream über unsere Social Media Kanäle 
+            <br>Sei live dabei bei der Verlosung am 8. Juni 2020 ab 17 Uhr im Videostream über unsere Social Media Kanäle <br>
             <a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span> Facebook</a> & 
             <a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span> Instagram</a>.
             <br>Wenn Du zu den glücklichen Gewinnern gehörst, benachrichtigen wir Dich über E-Mail an die angebende Adresse.
