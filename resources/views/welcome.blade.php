@@ -23,14 +23,17 @@
 					haben wir sehr vermisst. Schön das ihr wieder zurück seid. Beim Neustart möchten wir Sie gerne unterstützen.
 					Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR aus unserem gesamten Sortiment, 
 					wo wir täglich eine breite Auswahl an frischem Obst, Gemüse und Spezialitäten anbieten.
-					Hier findet Ihr die kompletten <br><br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a>
 				</p>
 			</div>
 
 				<p class="pic_left_right"><span class="image right"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
 					Einfach Postleitzahl eingeben, und prüfen ob ihr in unserer Region liegt, dann anmelden und Gewinnchance sichern. <br><br>
+					Hier findet Ihr die <br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a> <br><br>
 					Teilnahmeschluss ist der 6. Juni 2020.<br><br>
-					Die Verlosung findet am 8. Juni live bei Facebook.com/werner.ebrt.stgt statt.
+					Die Verlosung findet am 8. Juni live bei 
+					<a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span> Facebook</a> & 
+					<a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span> Instagram</a>
+					statt.
 					Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
 					Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in unserem Liefergebiet.
 				</p>
