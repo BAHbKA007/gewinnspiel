@@ -9,7 +9,11 @@
 
         <!-- Text stuff -->
             <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg!</h2>
-
+            Bitte prüfe Deinen E-Mail-Eingang und vergiß nicht Deine Teilnahme zu bestätigt.
+            <br>Sei live dabei bei der Verlosung am 8. Juni 2020 ab 17 Uhr im Videostream über unsere Social Media Kanäle „fb" und „ig“.
+            <br>Wenn Du zu den glücklichen Gewinnern gehörst, benachrichtigen wir Dich über E-Mail an die angebende Adresse.
+            <br><br>Wir wünschen Dir Viel Glück.
+        
             <p>
                 Mehr über uns:             
                 <ul class="icons alt">
