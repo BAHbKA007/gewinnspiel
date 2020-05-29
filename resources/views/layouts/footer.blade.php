@@ -1,6 +1,9 @@
 				<!-- Copyright -->
                 <div id="copyright">
-                    <ul><li>&copy;<a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH 2020</a></li></ul>
+					<ul>
+						<li><a href="https://www.werner-ebert.de" target="_blank">&copy; Werner Ebert GmbH 2020</a></li>
+						<li><a href="/Impressum">IMPRESSUM</a></li>
+					</ul>
 				</div>
 				
 			</div>
