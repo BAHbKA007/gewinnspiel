@@ -13,7 +13,7 @@
             <br>Sei live dabei bei der Verlosung am 8. Juni 2020 ab 17 Uhr im Videostream über unsere Social Media Kanäle <br>
             <a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span> Facebook</a> & 
             <a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span> Instagram</a>.
-            <br>Wenn Du zu den glücklichen Gewinnern gehörst, benachrichtigen wir Dich über E-Mail an die angebende Adresse.
+            <br>Wenn Du zu den glücklichen Gewinnern gehörst, benachrichtigen wir Dich per E-Mail an die angebende Adresse.
             <br><br><br>
             <p>
                 Mehr über uns:             

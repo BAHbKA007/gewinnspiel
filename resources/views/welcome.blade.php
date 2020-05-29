@@ -45,7 +45,7 @@
 					<a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span> Facebook</a> & 
 					<a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span> Instagram</a>
 					statt.
-					Die Gewinner werden per E-Mail benachrichtigt - also check Euer Postfach.
+					Die Gewinner werden per E-Mail benachrichtigt - also checkt Euer Postfach.
 					Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in unserem Liefergebiet.
 				</p>
 
@@ -147,9 +147,9 @@
 					
 					<!-- Erklärungen -->
 					<div class="col-12 col-12-small">
-						Mit Klicken des Teilnahme-Buttons erklärt sich der Teilnehmer mit der Teilnahme am Gewinnspiel gemäß der  
-						<a href="/Teilnahmebedingungen">Teilnahmebedingungen Gewinnspiel</a> und der Verarbeitung gemäß der Datenschutzerklärung Gewinnspiel 
-						<a href="/Datenschutz">Datenschutzerklärung.</a> einverstanden. Wir weisen darauf hin, dass die Gewinner 
+						Mit Klicken des "Jetzt teilnehmen"-Buttons erklärt sich der Teilnehmer mit der Teilnahme am Gewinnspiel gemäß der  
+						<a href="/Teilnahmebedingungen">Teilnahmebedingungen Gewinnspiel</a> und der Verarbeitung gemäß der 
+						<a href="/Datenschutz">Datenschutzerklärung Gewinnspiel</a> einverstanden. Wir weisen darauf hin, dass die Gewinner 
 						per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt werden.
 					</div>
 

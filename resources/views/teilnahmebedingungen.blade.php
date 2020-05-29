@@ -25,7 +25,7 @@
                     <br><h4>1. Teilnahme am Gewinnspiel</h4>
                 </span>
                 <span>
-                    Das Gewinnspiel findet in Deutschland statt und steht vom 30. Mai 2020 bis zum 6. Juni 2020, 00:00 Uhr zur Teilnahme über die Webseite <a href="{{url('/')}}">{{url('/')}}</a>  offen.
+                    Das Gewinnspiel findet in Deutschland statt und steht vom 30. Mai 2020 bis zum 6. Juni 2020, 23:59 Uhr zur Teilnahme über die Webseite <a href="{{url('/')}}">{{url('/')}}</a>  offen.
                     <br><br>Die verbindliche Anmeldung des Teilnehmers zum Gewinnspiel erfolgt mindestens in Textform mit Anklicken des entsprechenden Teilnahme-Buttons auf der Webseite. 
                     <br><br>Teilnehmer können sich nur einmal (und nicht mehrfach) anmelden und werden per E-Mail über die Anmeldung und die Teilnahme am Gewinnspiel benachrichtigt. Anmeldungen gelten erst zum Zeitpunkt ihrer Bestätigung durch den Anbieter als vorgenommen; maßgeblich ist die Zeitangabe in der E-Mail-Bestätigung.
                     <br><br>Alle Anmeldungen, die nach Ablauf der festgelegten Frist eingehen, sind von der Teilnahme ausgeschlossen.
