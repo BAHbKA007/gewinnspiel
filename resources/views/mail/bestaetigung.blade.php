@@ -7,7 +7,7 @@
 </div>
 <br>
 <div>
-    Um am an der Verlosung teilzunehmen, muss die E-Mail Adresse bestätigen werden: <a href="{{url()->current()}}/{{$teilnehmer->hash}}">Link</a>
+    Um am an der Verlosung teilzunehmen, muss die E-Mail Adresse bestätigt werden: <a href="{{url()->current()}}/{{$teilnehmer->hash}}">Link</a>
 </div>
 <br>
 <div>
