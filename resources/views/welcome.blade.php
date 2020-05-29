@@ -14,7 +14,18 @@
 					<h2>
 						Natürlich kannst Du die Seite gerne an deine Kollegen aus dem Gebiet weiterempfehlen, damit sie die Chance nutzen können.
 					</h2>
-					<span class="image fit" style="margin-left: auto;margin-right: auto;width: 100%;max-width: 600px;"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
+					<span class="image fit" style="margin-left: auto;margin-right: auto;width: 100%;max-width: 600px;">
+						<img src="images/Vorlag-600x600px-Karte.png" alt="" />
+					</span>
+					<p>
+						Mehr über uns:
+					</p>
+		
+					<ul class="icons alt">
+						<li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.werner-ebert.de/" class="icon brands alt fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+					</ul>
 
 				@else
 			
@@ -28,7 +39,7 @@
 
 				<p class="pic_left_right"><span class="image right"><img src="images/Vorlag-600x600px-Karte.png" alt="" /></span>
 					Einfach Postleitzahl eingeben, und prüfen ob ihr in unserer Region liegt, dann anmelden und Gewinnchance sichern. <br><br>
-					Hier findet Ihr die <br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a> <br><br>
+					Hier findet Ihr die <br><br><a href="/Teilnahmebedingungen" class="button small">Teilnahmebedingungen</a> <br><br>
 					Teilnahmeschluss ist der 6. Juni 2020.<br><br>
 					Die Verlosung findet am 8. Juni live bei 
 					<a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span> Facebook</a> & 
