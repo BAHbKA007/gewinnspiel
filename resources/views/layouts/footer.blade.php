@@ -13,7 +13,7 @@
 				<div id="cookie_footer" class="cookie">
 					<div class="cookie_box">
 						<div class="right">
-							<a id="cookie" href="" class="right button small primary">akzeptieren</a>
+							<a id="cookie" class="right button small primary">akzeptieren</a>
 						</div>
 					</div>
 					<div class="left">
