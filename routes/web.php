@@ -32,10 +32,10 @@ Route::get('/also', function ()
     return iterator_count($fi) - 1;
 });
 
-Route::get('/mail', function ()
-{
-    Mail::to("j.schneider@gemuesering.de")->send(new Test());
-});
+// Route::get('/mail', function ()
+// {
+//     Mail::to("j.schneider@gemuesering.de")->send(new Test());
+// });
 
 Route::get('/Teilnahmebedingungen', function () {
     return view('teilnahmebedingungen', [
@@ -64,6 +64,7 @@ Route::get('/Wir', function ()
 {
     return view('ueberuns', [
         'var' => [
+            'not_passed' => 1,
             'active' => 'UeberUns'
         ]]);
 });
