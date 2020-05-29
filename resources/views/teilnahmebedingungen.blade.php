@@ -34,7 +34,15 @@
                 </span>
                 <span>
                     <br><br><br><h4>2. Teilnahmeberechtigung</h4>
-                    Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in der Region Stuttgart, Deutschland PLZ 70180 bis 70839, 71032 bis 71093, 71101 bis 71157 (ohne 71120, 71131, 71134), 71229 bis 71287 (ohne 71263), 71332 bis 71397, 71409, 71563, 71636	bis 71696, 71701 bis 71706 und 71726	bis  71739, 72070 bis 72076, 72108 bis	72149 (ohne 72116, 72127, 72131, 72138, 72144, 72145, 72147), 72622 bis 72669 (ohne 72636, 72639), 73061, 73207 bis 73278 (ohne 73235, 73252, 73265, 73266, 73268, 73271, 73272, 73275, 73277), 73614 bis 73669 (ohne 73635, 73642, 73655, 73663, 73667), 73728 bis 73779, 74321. Dies entspricht dem Liefergebiet des Anbieters.
+                    Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz in der Region Stuttgart, Deutschland PLZ 
+                    70173, 70174, 70176, 70178, 70180, 70182, 70184, 70186, 70188, 70190, 70191, 70192, 70193, 70195, 70197, 70199, 70327, 70329, 70372, 70374, 
+                    70376, 70378, 70435, 70437, 70439, 70469, 70499, 70563, 70565, 70567, 70569, 70597, 70599, 70619, 70629, 70734, 70736, 70771, 70794, 70806, 
+                    70825, 70839, 71032, 71034, 71063, 71065, 71067, 71069, 71083, 71088, 71093, 71101, 71106, 71111, 71116, 71126, 71139, 71144, 71149, 71154, 
+                    71155, 71157, 71229, 71254, 71272, 71277, 71282, 71287, 71332, 71334, 71336, 71364, 71384, 71394, 71397, 71404, 71409, 71563, 71634, 71636, 
+                    71638, 71640, 71642, 71665, 71672, 71679, 71686, 71691, 71696, 71701, 71706, 71726, 71729, 71732, 71735, 71737, 71739, 72070, 72072, 72074, 
+                    72076, 72108, 72119, 72124, 72135, 72141, 72149, 72622, 72631, 72644, 72649, 72657, 72666, 72667, 72669, 73061, 73207, 73230, 73240, 73249, 
+                    73257, 73262, 73269, 73274, 73278, 73614, 73630, 73650, 73660, 73666, 73669, 73728, 73730, 73732, 73733, 73734, 73760, 73765, 73770, 73773, 
+                    73776, 73779, 74321, 74343, 74372. Dies entspricht dem Liefergebiet des Anbieters.
                     <br><br>Manipulationsversuche führen zum Ausschluss vom Gewinnspiel. 
                     <br><br>Um am Gewinnspiel auf der Webseite <a href="{{url('/')}}">{{url('/')}}</a> teilzunehmen, muss die Anmeldung in jeder Hinsicht vollständig sein und insbesondere die abgefragten Daten (Firma, Adresse, Umsatzsteuer-ID, E-Mail) eingegeben werden.
                 </span>
