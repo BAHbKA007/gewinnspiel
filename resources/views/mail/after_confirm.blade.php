@@ -30,7 +30,6 @@
                 </ul>
             </p>
         @else
-        <header class="major">
             <h2>... etwas hat nicht geklappt</h2>
             <p>
                 Bitte überprüfen Sie die aufgerufene URL.
@@ -43,7 +42,6 @@
                     <li><a href="https://www.werner-ebert.de/" class="icon brands alt fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
                 </ul>
             </p>
-        </header>
         @endif
 
     </section>
