@@ -16,9 +16,9 @@
                 70327 Stuttgart 
             </p>
             <p>
-                Telefon: 0711/480451-0 <br>
+                Telefon: <a href="tel:+497114804510">0711/480451-0</a><br>
                 Fax: 0711/480451-50 <br>
-                E-mail: werner-ebert@werner-ebert.de <br>
+                E-mail: <a href="mailto:werner-ebert@werner-ebert.de">werner-ebert@werner-ebert.de</a> <br>
             </p>
             <p>
                 Sitz: Stuttgart - HRA 10640 <br>
