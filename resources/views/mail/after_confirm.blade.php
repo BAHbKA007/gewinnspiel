@@ -5,9 +5,9 @@
     <section id="jump-action"  class="post pic_left_right">
 
         @if (isset($var['teilnehmer']))
-            <h1>
+            <h2>
                 E-Mail bestätigt
-            </h1>
+            </h2>
 
             <h2>Vielen Dank für Deine Teilnahme. <br> Wir wünschen Dir viel Erfolg.</h2>
             <p>
