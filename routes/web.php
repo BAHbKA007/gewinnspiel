@@ -26,6 +26,12 @@ Route::get('/test', function ()
     return Hash::make('asdasd');
 });
 
+Route::get('/also', function ()
+{
+    $fi = new FilesystemIterator("../storage/framework/sessions", FilesystemIterator::SKIP_DOTS);
+    return iterator_count($fi) - 1;
+});
+
 Route::get('/mail', function ()
 {
     Mail::to("j.schneider@gemuesering.de")->send(new Test());
