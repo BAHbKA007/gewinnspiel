@@ -76,18 +76,14 @@
 
 			<!-- Gewinnspiel -->
 			<p>
-				Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR (gültig bis 31.12.2020) aus unserem Sortiment. 
-				Hier finden Sie eine reichhaltige Auswahl an Gemüse, Obst und Spezialitäten, täglich frisch in Top Qualität.
-				<br><br>
-				Teilnahmeschluss ist der 6. Juni 2020.
-				<br><br>
-				Teilnahme nur über diese Webseite (gastro-neustart.de) möglich 
-				<br><br>
-				Die Gewinner werden per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt.
-				<br><br>
-				Die kompletten Teilnahmebedingung findest Du hier: <a href="/Teilnahmebedingungen">Link</a>
+				<h2>Liebe Gastronomen</h2>
+				Wir verlosen 100 x 1.000,- EUR Warengutscheine für das gesamte Sortiment der Werner Ebert GmbH & Co. KG, Stuttgart, einzulösen durch den Teilnehmer bis 31. Dezember 2020.
+				<br><br> Die Gewinner werden per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt.
+				<br><br>Teilnahmeberechtigt sind gewerblich tätige Gastronomiebetriebe als Unternehmer mit Geschäftssitz im Liefergebiet der Werner Ebert GmbH & Co. KG, Stuttgart (PLZ gem. der Teilnahmebedingungen).
+				<br><br>Teilnahmeschluss: 6. Juni 2020.
+				<br><br>Es gelten die auf der Webseite gastro-neustart.de abrufbaren <a href="/Teilnahmebedingungen" target="_blank">Teilnahmebedingungen</a> und <a href="/Datenschutz" target="_blank">Datenschutzerklärung</a>.
 			</p>
-
+			
 			<form method="post" action="/teilnahme">
 				@csrf
 				<div id="jump-action" class="row gtr-uniform">

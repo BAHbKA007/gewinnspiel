@@ -8,7 +8,7 @@
         </header> --}}
 
         <!-- Text stuff -->
-            <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg.</h2>
+            <h2>Vielen Dank für Deine Teilnahme. Wir wünschen Dir viel Erfolg!</h2>
 
             <p>
                 Mehr über uns:             
