@@ -14,11 +14,11 @@
     Alternativ folgende URL im Webbrowser aufrufen: {{url()->current()}}/{{$teilnehmer->hash}}
 </div>
 <div>
-Werner Ebert GmbH & Co. KG
-<br><br>
+<br><br>Werner Ebert GmbH & Co. KG
+<br>
 <br>Langwiesenweg 30
 <br>70327 Stuttgart
-<br><br>
+<br>
 <br>Telefon: 0711/480451-0
 <br>Fax: 0711/480451-50
 <br>E-mail: werner-ebert@werner-ebert.de

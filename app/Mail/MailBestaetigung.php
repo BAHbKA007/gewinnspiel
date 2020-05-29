@@ -32,7 +32,7 @@ class MailBestaetigung extends Mailable
     public function build()
     {
         $subject = [
-            "bitte bestätigen Sie ".$this->teilnehmer->email,
+            "Bitte bestätigen Sie ".$this->teilnehmer->email,
             $this->teilnehmer->email." muss noch bestätigt werden"
         ];
 
