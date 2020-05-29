@@ -17,7 +17,7 @@
             </p>
             <p>
                 Wenn Du gewinnst benachrichtigen wir Dich über Deine angegebene E-Mail-Adresse. Bitte prüfe ggf. Deinen Spam-Ordner. 
-                Wir bitten Dich den Empfang innerhalb von 7 Tagen, spätestens bis 17.05.2020 zu bestätigen, damit wir sicher gehen können, 
+                Wir bitten Dich den Empfang innerhalb von 14 Tagen, spätestens bis 22.06.2020 zu bestätigen, damit wir sicher gehen können, 
                 dass die Gewinner ihr Nachricht auch erhalten haben.
             </p>
             <br>
