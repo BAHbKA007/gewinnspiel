@@ -62,6 +62,12 @@
 				
 
             });
-        </script>
+		</script>
+		@isset($var['double_ustid'])
+		<script>
+			$("#ustid").focus(); 
+			document.getElementById("ustid").scrollIntoView();
+		</script>
+		@endisset
 </body>
 </html>

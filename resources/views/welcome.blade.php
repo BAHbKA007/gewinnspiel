@@ -139,7 +139,7 @@
 					</div>
 					
 					<div class="col-12 col-12-xsmall">
-						<input type="text" name="ustid" placeholder="Umsatzsteuer-Identifikationsnummer" value="{{ $var['request']->ustid ?? ''}}" required/>
+						<input id="ustid" type="text" name="ustid" placeholder="Umsatzsteuer-Identifikationsnummer" value="{{ $var['request']->ustid ?? ''}}" required/>
 						@isset($var['double_ustid'])
 							<span style="color: red;font-size:14px;font-style: italic;">Die USt-ID nimme bereits an dem Gewinnspiel teil.</span>
 						@endisset

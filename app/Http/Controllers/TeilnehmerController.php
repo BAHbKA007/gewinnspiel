@@ -117,7 +117,7 @@ class TeilnehmerController extends Controller
     public function check_mail($hash)
     {
         
-        if (Teilnehmer::firstWhere('hash', $hash)->exists()) {
+        if (Teilnehmer::where('hash', $hash)->exists()) {
             $teilnehmer = Teilnehmer::firstWhere('hash', $hash);
             $teilnehmer->mail_confirmed = 'ja';
             $teilnehmer->save();

@@ -31,7 +31,10 @@
             </p>
         @else
         <header class="major">
-            ... etwas hat nicht geklappt
+            <h1>... etwas hat nicht geklappt</h1>
+            <p>
+                Bitte überprüfen Sie die aufgerufene URL.
+            </p>
         </header>
         @endif
 
