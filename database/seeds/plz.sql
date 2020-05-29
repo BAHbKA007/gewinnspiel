@@ -140,4 +140,7 @@ INSERT INTO postleitzahls (plz, ort) VALUES
 (73773, 'Aichwald'),
 (73776, 'Altbach'),
 (73779, 'Deizisau'),
-(74321, 'Bietigheim-Bissingen');
+(74321, 'Bietigheim-Bissingen'),
+(74343, 'Sachsenheim'),
+(74372, 'Sersheim'),
+(73660, 'Urbach');

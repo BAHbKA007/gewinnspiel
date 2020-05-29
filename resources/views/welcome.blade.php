@@ -137,16 +137,16 @@
 					
 					<!-- Erklärungen -->
 					<div class="col-12 col-12-small">
-						<input type="checkbox" id="einverstanden" name="einverstanden" {{ (isset($var['request']->einverstanden) && $var['request']->einverstanden == 'on') ? 'checked' : ''}} required>
-						<label for="einverstanden">Ich akzeptiere die <a href="/Teilnahmebedingungen">Teilnahmebedingungen</a> und die <a href="/Datenschutz">Datenschutzerklärung.</a></label>
-						<br>
-						<span id="zustimmung" style="color: red;font-size:14px;font-style: italic;" hidden>Die Zustimmung ist zwingend erforderlich</span>
+						Mit Klicken des Teilnahme-Buttons erklärt sich der Teilnehmer mit der Teilnahme am Gewinnspiel gemäß der  
+						<a href="/Teilnahmebedingungen">Teilnahmebedingungen Gewinnspiel</a> und der Verarbeitung gemäß der Datenschutzerklärung Gewinnspiel 
+						<a href="/Datenschutz">Datenschutzerklärung.</a> einverstanden. Wir weisen darauf hin, dass die Gewinner 
+						per Verlosung im öffentlichen Live-Video auf unseren Social Media Seiten ermittelt und per E-Mail benachrichtigt werden.
 					</div>
 
 					<!-- Break -->
 					<div class="col-12">
 						<ul class="actions">
-							<li><input id="submit" type="submit" value="teilnehmen" class="primary" /></li>
+							<li><input id="submit" type="submit" value="Jetzt teilnehmen" class="primary" /></li>
 						</ul>
 					</div>
 				</div>
@@ -154,7 +154,5 @@
 		@endif
 	</section>	
 </div>
-
-
 
 @include('layouts/footer')

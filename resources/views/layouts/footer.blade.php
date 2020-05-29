@@ -1,6 +1,6 @@
 				<!-- Copyright -->
                 <div id="copyright">
-                    <ul><li>&copy;<a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH</a></li></ul>
+                    <ul><li>&copy;<a href="https://www.werner-ebert.de" target="_blank">Werner Ebert GmbH 2020</a></li></ul>
 				</div>
 				
 			</div>
@@ -41,20 +41,6 @@
 				});
 
 				$('#cookie_footer').fadeOut();
-			});
-
-			$("#submit").on('click', function () {
-				if (!$('#einverstanden').is(':checked')) {
-					$("#zustimmung").show();
-				}
-			});
-
-			$("#einverstanden").on('click', function () {
-				if (!$('#einverstanden').is(':checked')) {
-					$("#zustimmung").show();
-				} else {
-					$("#zustimmung").hide();
-				}
 			});
 
             $(document).ready(function () {

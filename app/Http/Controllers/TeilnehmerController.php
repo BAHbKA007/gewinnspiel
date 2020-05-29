@@ -90,7 +90,6 @@ class TeilnehmerController extends Controller
             $teilnehmer->email = $request->email;
             $teilnehmer->telefon = $request->tel;
             $teilnehmer->ustidnr  = $request->ustid;
-            $teilnehmer->zugestimmt  = (isset($request->einverstanden)) ? 'ja' : 'nein';
             
             $teilnehmer->save();
             $id = $teilnehmer->id;
