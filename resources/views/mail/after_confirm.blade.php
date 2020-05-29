@@ -5,9 +5,9 @@
     <section id="jump-action"  class="post pic_left_right">
 
         @if (isset($var['teilnehmer']))
-            <h2>
+            <h1>
                 E-Mail bestätigt
-            </h2>
+            </h1>
 
             <h2>Vielen Dank für Deine Teilnahme. <br> Wir wünschen Dir viel Erfolg.</h2>
             <p>
@@ -31,9 +31,17 @@
             </p>
         @else
         <header class="major">
-            <h1>... etwas hat nicht geklappt</h1>
+            <h2>... etwas hat nicht geklappt</h2>
             <p>
                 Bitte überprüfen Sie die aufgerufene URL.
+            </p>
+            <p>
+                Mehr über uns:             
+                <ul class="icons alt">
+                    <li><a href="https://www.facebook.com/werner.ebert.stgt" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/werner.ebert.stgt/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.werner-ebert.de/" class="icon brands alt fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+                </ul>
             </p>
         </header>
         @endif
