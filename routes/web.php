@@ -20,22 +20,24 @@ use Illuminate\Support\Facades\Hash;
 //     return Redirect::to('http://werner-ebert.de');
 // });
 
-Route::get('/test', function ()
-{
-    return random_int (0, 1);
-    return Hash::make('asdasd');
-});
+// Route::get('/test', function ()
+// {
+//     return random_int (0, 1);
+//     return Hash::make('asdasd');
+// });
 
-Route::get('/also', function ()
-{
-    $fi = new FilesystemIterator("../storage/framework/sessions", FilesystemIterator::SKIP_DOTS);
-    return iterator_count($fi) - 1;
-});
+// Route::get('/also', function ()
+// {
+//     $fi = new FilesystemIterator("../storage/framework/sessions", FilesystemIterator::SKIP_DOTS);
+//     return iterator_count($fi) - 1;
+// });
 
 // Route::get('/mail', function ()
 // {
 //     Mail::to("j.schneider@gemuesering.de")->send(new Test());
 // });
+
+
 
 Route::get('/Teilnahmebedingungen', function () {
     return view('teilnahmebedingungen', [

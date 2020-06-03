@@ -1,11 +1,19 @@
 @extends('layouts.app')
 
+@php
+function zaehl_cookies()
+{
+    $fi = new FilesystemIterator("../storage/framework/sessions", FilesystemIterator::SKIP_DOTS);
+    return iterator_count($fi) - 1;
+}
+@endphp
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">alle Einträge:</div>
+                <div class="card-header"><span style="font-weight: bold;">{{count($var['teilnehmer'])}}</span> Einträge bei <span style="font-weight: bold;">{{zaehl_cookies()}}</span> Neuaufrufen:</div>
 
                 <div class="card-body">
                     @if (session('status'))
