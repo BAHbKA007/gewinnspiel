@@ -13,7 +13,7 @@
 			</p>
 
 			<header class="major">
-				<h1>TEILNAHME<br>BEENDET</h1>
+				<h1>TEILNAHME <br>BEENDET</h1>
 			</header>
 			<p style="font-size: 200%;" class="pic_left_right"><span class="image right"><img src="images/Vorlag-600x600px-Karte.png" alt=""/></span>
 				Danke an alle die durchs Teilen
