@@ -68,7 +68,18 @@
 
 				<!-- Intro -->
 					<div id="intro">
-                        <img style="max-width:120%; max-height:100%;" src="/images/logo.png" alt="">
+
+                        @php
+                            $date_now = new DateTime();
+                            $date2    = new DateTime('2020-06-06 23:59:59');
+                        @endphp
+                        
+                        @if ($date_now < $date2)
+                            <img style="max-width:120%; max-height:100%;" src="/images/logo.png" alt="">
+                        @else
+                            <img style="max-width:120%; max-height:100%;" src="/images/logo_after.png" alt="">
+                        @endif
+
                         {{-- <ul class="actions">
                             <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul> --}}
