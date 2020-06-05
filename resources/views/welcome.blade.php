@@ -30,10 +30,10 @@
 				@else
 			
 				<p class="pic_left_right"><span class="image left"><img src="images/Vorlag-600x600px-Aktion.png" alt="" /></span>
-					Wir schätzen Euch als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Eure Orte zum begegnen, genießen und verweilen 
-					haben wir sehr vermisst. Schön das ihr wieder zurück seid. Beim Neustart möchten wir Euch gerne unterstützen.
+					Wir schätzen Euch als Gastronomen, die unseren Produkten durch Ihre Zubereitung den letzten Schliff geben. Eure Orte zum Begegnen, Genießen und Verweilen 
+					haben wir sehr vermisst. Schön, dass ihr wieder zurück seid. Beim Neustart möchten wir Euch gerne unterstützen.
 					Dazu verlosen wir unter allen teilnehmenden Gastronomen der Region Stuttgart und Umgebung 100 Warengutscheine à 1.000,- EUR aus unserem gesamten Sortiment, 
-					wo wir täglich eine breite Auswahl an frischem Obst, Gemüse und Spezialitäten anbieten.
+					mit dem wir täglich eine breite Auswahl an frischem Obst, Gemüse und Spezialitäten anbieten.
 				</p>
 			</div>
 
