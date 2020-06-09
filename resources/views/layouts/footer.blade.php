@@ -33,6 +33,19 @@
         <script src="/assets/js/util.js"></script>
         <script src="/assets/js/main.js"></script>
         <script>
+
+			function showForm(art) {
+				if (art === 'form_kunde') {
+					$('#form_kunde').fadeIn();
+					$('#form_neukunde').hide();
+
+				} else {
+
+					$('#form_neukunde').fadeIn();
+					$('#form_kunde').hide();	
+				}
+			}
+
 			$("#cookie").on('click', function () {
 				var that = this;
 				$.ajax({

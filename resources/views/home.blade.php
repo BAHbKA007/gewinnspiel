@@ -29,15 +29,25 @@ function zaehl_cookies()
                                 <th scope="col">Adresse</th>
                                 <th scope="col">teilgenommen</th>
                                 <th scope="col">Ansprechpartner</th>
+                                <th scope="col">sende E-Mail</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach ($var['teilnehmer'] as $item)
-                                <tr>
+                                <tr 
+                                @if ($item->gewinnmail_bestaetigt == 'ja')
+                                    style="background-color:#58FA58"
+                                @endif
+                                >
                                     <td>{{$item->firma}}</td>
                                     <td>{{$item->strasse}} {{$item->nr}} {{$item->plz}} {{$item->ort}}</td>
                                     <td>{{$item->created_at->format('d.m.Y H:i:s')}}</td>
                                     <td><a href="#" data-toggle="popover" title="Kontakt" data-content="E-Mail: {{$item->email}} Telefon: {{$item->telefon}}">{{$item->anrede}} {{$item->vorname}} {{$item->nachname}}</a></td>
+                                    @if ($item->gewinnmail_versendet == 'nein')
+                                        <td><a disabled href="/gewinn/sendmail/{{$item->hash}}">Mail Senden</a></td>
+                                    @else
+                                        <td><span>versendet</span></td>
+                                    @endif
                                 </tr>
                             @endforeach
                         </tbody>

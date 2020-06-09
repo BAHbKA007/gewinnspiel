@@ -105,6 +105,14 @@ if ($date_now < $date2) {
     Route::post('/akzeptieren', "TeilnehmerController@cookie");
 
 } else {
+    
+    Route::post('/einfordern', 'TeilnehmerController@einfordern');
+
+    Route::post('/einfordern/neukunde', 'TeilnehmerController@einfordern_neukunde');
+
+    Route::get('/gewinn/sendmail/{hash}', "GewinnBenachrichtigung@sendmail");
+
+    Route::get('/gewinn/sendmail/{hash}/gewinn', "TeilnehmerController@gewinnbestaetigen");
 
     Route::get('/', function ()
     {

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Mail;
 use App\Mail\MailBestaetigung;
+use App\Mail\MailKunde;
+use App\Mail\MailNeukunde;
 use App\Teilnehmer;
 use App\Postleitzahl;
 use Illuminate\Http\Request;
@@ -148,9 +150,20 @@ class TeilnehmerController extends Controller
      * @param  \App\Teilnehmer  $teilnehmer
      * @return \Illuminate\Http\Response
      */
-    public function show(Teilnehmer $teilnehmer)
+    public function gewinnbestaetigen($hash)
     {
-        //
+        if (Teilnehmer::where('hash', $hash)->exists()) {
+            $teilnehmer = Teilnehmer::firstWhere('hash', $hash);
+            return view('gewinn', [
+                'var' => [
+                    'teilnehmer' => $teilnehmer,
+                    'active' => 'Gewinnspiel',
+                    'not_passed' => 1
+                ]]);
+        } else {
+            return view('after');
+        };
+        return $hash;
     }
 
     /**
@@ -171,9 +184,22 @@ class TeilnehmerController extends Controller
      * @param  \App\Teilnehmer  $teilnehmer
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Teilnehmer $teilnehmer)
+    public function einfordern(Request $request)
     {
-        //
+        try {
+            Mail::to('w.funke@werner-ebert.de')->cc('j.schneider@gemuesering.de')->send(new MailKunde($request));
+            $teilnehmer = Teilnehmer::firstWhere('hash', $request->hash);
+            $teilnehmer->gewinnmail_bestaetigt = 'ja';
+            $teilnehmer->save();
+        } catch (\Exception $e) {
+            report($e);
+        }
+
+        return view('bestellen', [
+            'var' => [
+                'active' => 'Gewinnspiel',
+                'not_passed' => 1
+            ]]); 
     }
 
     /**
@@ -182,9 +208,22 @@ class TeilnehmerController extends Controller
      * @param  \App\Teilnehmer  $teilnehmer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Teilnehmer $teilnehmer)
+    public function einfordern_neukunde(Request $request)
     {
-        //
+        try {
+            Mail::to('w.funke@werner-ebert.de')->cc('j.schneider@gemuesering.de')->send(new MailNeukunde($request));
+            $teilnehmer = Teilnehmer::firstWhere('hash', $request->hash);
+            $teilnehmer->gewinnmail_bestaetigt = 'ja';
+            $teilnehmer->save();
+        } catch (\Exception $e) {
+            report($e);
+        }
+
+        return view('bestellen', [
+            'var' => [
+                'active' => 'Gewinnspiel',
+                'not_passed' => 1
+            ]]); 
     }
 
 }

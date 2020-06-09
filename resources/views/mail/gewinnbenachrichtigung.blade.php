@@ -3,15 +3,15 @@
 </div>
     <br>
 <div>
-    {{ $teilnehmer->firma }} wurde unter <a href="gastro-neustart.de">gastro-neustart.de</a> als Gewinnspielteilnehmer eingetragen.
+    {{ $teilnehmer->firma }} wurde als glücklicher Gewinner ausgelost.
 </div>
 <br>
 <div>
-    Um am an der Verlosung teilzunehmen, muss die E-Mail Adresse bestätigt werden: <a href="{{url()->current()}}/{{$teilnehmer->hash}}">Link</a>
+    Damit der Gewinn gutgeschrieben werden kann, benötigen wir von Dir noch ein paar Angaben: <a href="{{url()->current()}}/gewinn">Link</a>
 </div>
 <br>
 <div>
-    Alternativ folgende URL im Webbrowser aufrufen: {{url()->current()}}/{{$teilnehmer->hash}}
+    Alternativ folgende URL im Webbrowser aufrufen: {{url()->current()}}/gewinn
 </div>
 <div>
 <br><br>Werner Ebert GmbH & Co. KG
