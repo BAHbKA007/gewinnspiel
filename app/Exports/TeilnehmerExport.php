@@ -30,6 +30,8 @@ class TeilnehmerExport implements FromCollection, WithHeadings, ShouldAutoSize
             'UStID-Nr.:',
             'hash',
             'E-Mail Bestätigt',
+            'Gewinnbenachrichtigung versand',
+            'Gewinn angefordert',
             'erstellt',
             'geändert'
         ];
