@@ -7,7 +7,7 @@
 </div>
 <br>
 <div>
-    Damit der Gewinn gutgeschrieben werden kann, benötigen wir von Dir noch ein paar Angaben: <a href="{{url()->current()}}/gewinn">Link</a>
+    Damit der Gewinn gutgeschrieben werden kann, benötigen wir von Dir <b>bis zum 23.06.2020</b> noch ein paar Angaben: <a href="{{url()->current()}}/gewinn">Link</a>
 </div>
 <br>
 <div>

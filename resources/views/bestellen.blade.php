@@ -4,7 +4,7 @@
     <!-- Post -->
     <section id="jump-action"  class="post">
         <header class="major">
-            <h1>Und schon können Sie bestellen:</h1>
+            <h1>Und schon können Sie bestellen</h1>
         </header>
 
         <!-- Text stuff -->
